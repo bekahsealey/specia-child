@@ -1,9 +1,32 @@
 # specia-child
 Child theme for the Constitution Party National website
 
+## Installation
+*What you need: *
+* WordPress installed and updated to latest version [WordPress installation guide](https://codex.wordpress.org/Installing_WordPress)
+* a copy of specia-child.zip on your desktop or download folder (do not unpack)
+
+### Install Specia Theme
+* Log in to the Administration panel by navigating to **your-website-address**/wp-admin in your browser
+* Click "Appearance" -> "Themes" on the left sidebar
+* Click "Add New" button, to the right of the title "Themes"
+* Enter *Specia* in the "Search themes..." box
+* Hover or select the Specia theme and click Install
+* After installation completes, select "Return to theme installer"
+
+### Install Specia Child Theme
+* If you are not on the "Add Themes" page, repeat the first three steps of the Install Special Theme guide above.
+* Click "Upload Themes" button, to the right of the title "Add Themes"
+* Click "Browse", then navigate to your desktop or downloads folder
+* Select the specia-child.zip file and click "Open"
+* Click "Install Now"
+* After installation completes, select "Activate"
+
+**end installation**
+
 ## Initial Setup
 
-What you need: 
+*What you need: *
 * Images needed
 	* logo size 150px by 150px
 	* logo size 512px by 512px
@@ -43,10 +66,8 @@ What you need:
 		* Select "Pages" on the Dashboard left column, then click "Add New" 
 		* Enter a title (this page will not display its own content or featured image so leave those areas blank)		
 		* Click the "Publish" button in the top right column box
-
-
  
-
+### Begin Customization
 * Enter Customize - Dashboard -> Appearance -> Customize
 
 1. Setting up Site Identity
@@ -148,13 +169,4 @@ What you need:
 			* Click "Save & Publish" at the top right corner of the Customize side panel
 			* Click the back arrow next to "Customizing > Footer Section Copyright Content" directly below the "Save & Publish" button
 		3. Click the back arrow next to "You are customizing Footer Section" directly below the "Save & Publish" button
-
-
-
-
-
-
-
-
-
-
+**end customization**
