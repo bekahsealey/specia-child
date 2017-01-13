@@ -1,0 +1,88 @@
+/*
+ Theme Name:   Specia Child
+ Description:  Specia Child Theme
+ Author:       Bekah Sealey
+ Author URI:   http://bekahsealey.com
+ Template:     specia
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  specia-child
+*/
+header#masthead,
+.site-info {
+  background: #2C354B;
+  padding-bottom: 18px; }
+
+.nav-pills > li > a {
+  border-radius: 4px;
+  background: #2C354B; }
+
+.nav-pills > li + li {
+  margin-left: 2px; }
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #ccc; }
+
+.main-navigation {
+  margin: 18px 0; }
+
+.main-navigation ul li a {
+  padding: 18px 18px; }
+
+.widget {
+  overflow: auto; }
+
+.main-banner {
+  margin-bottom: 3rem; }
+
+/** 
+*	header banner 
+*/
+header#masthead {
+  background: #fff; }
+
+#masthead a {
+  color: #174078; }
+
+.embossed {
+  text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  color: #174078;
+  opacity: 0.3;
+  font: 80px 'Open Sans'; }
+
+.three-d {
+  color: #fff;
+  text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+  font: 80px 'ChunkFiveRegular'; }
+
+.retro {
+  color: #d7ceb2;
+  text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
+  font: 80px 'BazarMedium';
+  letter-spacing: 10px; }
+
+/* @end header banner */
+@media only screen and (max-width: 767px) {
+  .custom-logo {
+    width: 50px; }
+
+  .site-branding .col-sm-9 {
+    position: absolute;
+    top: 5px;
+    left: 50px; }
+
+  .home .site-content {
+    margin-top: 30px; } }
+@media only screen and (min-width: 768px) {
+  h1.main-title {
+    margin-top: 40px;
+    font-size: 5rem; }
+
+  .social-icons ul {
+    float: right !important; } }
+
+/*# sourceMappingURL=style.css.map */
