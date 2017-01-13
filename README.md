@@ -2,7 +2,8 @@
 Child theme for the Constitution Party National website
 
 ## Installation
-*What you need: *
+_What you need:_
+
 * WordPress installed and updated to latest version [WordPress installation guide](https://codex.wordpress.org/Installing_WordPress)
 * a copy of specia-child.zip on your desktop or download folder (do not unpack)
 
@@ -26,7 +27,8 @@ Child theme for the Constitution Party National website
 
 ## Initial Setup
 
-*What you need: *
+_What you need:_
+
 * Images needed
 	* logo size 150px by 150px
 	* logo size 512px by 512px
