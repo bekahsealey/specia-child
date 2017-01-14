@@ -31,6 +31,227 @@
 /* Main Mid Blue color */
 /* Main Mid Gray color */
 /* Main Light Gray color */
+/* Change peach/orange to red */
+.constitution {
+  /* Slider CSS */
+  /* Service CSS */
+  /* Cal Action CSS */
+  /* Service Section CSS */
+  /* Features Section CSS */
+  /* Latest Blog Section CSS */
+  /* Footer Section CSS */
+  /* Copyright Content */
+  /* Pagination CSS */
+  /* Blog Page CSS */
+  /* Error Page CSS */
+  /* Form Element CSS */
+  /* Breadcrumb CSS */
+  /*Sidebar Area CSS */
+  /* Typography */
+  /* Form */
+  /* --------------------------------------
+  =========================================
+      Secondary Color
+  =========================================
+  -----------------------------------------*/
+  /* Menu CSS */
+  /* Slider CSS */
+  /* Service CSS */
+  /* Latest Blog Section CSS */
+  /* Footer Section CSS */
+  /* Blog Page CSS */
+  /* Error Page CSS */
+  /* Form Element CSS */
+  /*Sidebar Area CSS */
+  /* Typography */ }
+  .constitution .specia-icon,
+  .constitution .header-top-info-1 .social li a i:hover {
+    background-color: #860918; }
+  .constitution .ca-menu:hover .ca-icon,
+  .constitution .ca-menu:hover .ca-main,
+  .constitution a.comment-reply-link:hover, .constitution a.comment-reply-link:focus,
+  .constitution .error-page h1,
+  .constitution .navbar-brand::first-letter {
+    color: #860918; }
+  .constitution .navbar.navbar-default .navbar-nav > .active > a, .constitution .navbar.navbar-default .navbar-nav > .active > a:hover,
+  .constitution .navbar-nav .dropdown-menu > .active > a,
+  .constitution .navbar-nav .dropdown-menu > .active > a:hover,
+  .constitution .dropdown-menu > li > a:hover,
+  .constitution .dropdown-menu > li > a:focus {
+    background-color: #9e0b1c !important; }
+  .constitution .slider-version-one .caption h1 span {
+    color: #860918; }
+  .constitution .specia-btn-1:hover {
+    background: #860918;
+    border-color: #860918; }
+  .constitution .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+    background: #860918; }
+  .constitution .owl-theme .owl-dots .owl-dot.active span,
+  .constitution .owl-theme .owl-dots .owl-dot:hover span {
+    background: #860918; }
+  .constitution .section-heading span {
+    color: #860918; }
+  .constitution .service-version-one .service-title a:hover, .constitution .service-version-one .service-title a:active, .constitution .service-version-one .service-title a:focus {
+    color: #860918; }
+  .constitution .call-to-action .background-overlay {
+    background: #860918; }
+  .constitution .call-to-action .call-btn-1:hover {
+    color: #860918; }
+  .constitution .service-version-one .service-icon-box i:hover {
+    background: #860918; }
+  .constitution .specia-icon-effect-1 .specia-icon:after {
+    box-shadow: 0 0 0 4px #860918; }
+  .constitution .specia-icon-effect-5 .specia-icon:hover {
+    box-shadow: 0 0 0 4px #860918; }
+  .constitution .specia-icon-effect-6 .specia-icon:hover {
+    box-shadow: 0 0 0 4px #860918; }
+  .constitution .specia-icon-effect-8 .specia-icon:hover {
+    background: #860918; }
+  .constitution .features-version-one h2 span {
+    color: #860918; }
+  .constitution .features-version-one .feature-box-info h4 {
+    color: #860918; }
+  .constitution .blog-version-1 article:hover footer.entry-footer {
+    background: #860918; }
+  .constitution .entry-content .more-link:hover {
+    background: #860918;
+    border: solid 2px #860918; }
+  .constitution .footer-sidebar .widget .title-border {
+    border-bottom: 2px solid #860918; }
+  .constitution .widget table #next a, .constitution .widget table #prev a {
+    color: #860918;
+    font-weight: 600; }
+  .constitution .footer-sidebar .widget ul li a:hover, .constitution .widget ul li a:active {
+    color: #860918; }
+  .constitution .footer-sidebar .widget input[type="submit"]:hover {
+    background: #860918;
+    border-color: #860918; }
+  .constitution .footer-sidebar .tagcloud a:hover, .constitution .tagcloud a:focus {
+    border: 1px solid #860918;
+    background: #860918; }
+  .constitution .payment-icon li a:hover {
+    color: #860918; }
+  .constitution .footer-copyright p a:hover {
+    color: #860918; }
+  .constitution .top-scroll {
+    border-color: #860918;
+    color: #860918; }
+  .constitution .paginations a:hover, .constitution .paginations a:focus, .constitution .paginations a.active, .constitution span.page-numbers.current {
+    border: 1px solid #860918;
+    background-color: #860918; }
+  .constitution .page-wrapper article:hover footer.entry-footer {
+    background: #860918; }
+  .constitution .comment-reply-title {
+    border-top: 4px solid #860918; }
+  .constitution .required {
+    color: #860918; }
+  .constitution a.comment-reply-link {
+    color: #860918; }
+  .constitution .error-page h1 {
+    color: #860918; }
+  .constitution button:hover,
+  .constitution input[type="button"]:hover,
+  .constitution input[type="reset"]:hover,
+  .constitution input[type="submit"]:hover {
+    background: #860918;
+    border: solid 2px #860918; }
+  .constitution .page-breadcrumb a {
+    color: #860918; }
+  .constitution .sidebar .widget ul li a:hover, .constitution .widget ul li a:active {
+    color: #860918; }
+  .constitution .sidebar .widget input[type="submit"]:hover {
+    background: #860918;
+    border-color: #860918; }
+  .constitution blockquote {
+    border-left: 5px solid #860918 !important; }
+  .constitution table th {
+    border: 1px solid #860918;
+    background: #860918; }
+  .constitution em, .constitution cite, .constitution q {
+    color: #860918; }
+  .constitution s, .constitution strike, .constitution del {
+    color: #860918; }
+  .constitution h1 span, .constitution h2 span, .constitution h3 span, .constitution h4 span, .constitution h5 span, .constitution h6 span, .constitution h1 small, .constitution h2 small, .constitution h3 small, .constitution h4 small, .constitution h5 small, .constitution h6 small {
+    color: #860918; }
+  .constitution body a:focus, .constitution body a:hover {
+    color: #860918; }
+  .constitution button:focus,
+  .constitution input[type="button"]:focus,
+  .constitution input[type="reset"]:focus,
+  .constitution input[type="submit"]:focus,
+  .constitution button:active,
+  .constitution input[type="button"]:active,
+  .constitution input[type="reset"]:active,
+  .constitution input[type="submit"]:active {
+    background: #860918;
+    border: solid 2px #860918; }
+  .constitution .navbar-brand {
+    color: #182947 !important; }
+  .constitution .owl-theme .owl-controls .owl-nav [class*=owl-] {
+    background: #293B58; }
+  .constitution .section-heading {
+    color: #182947; }
+  .constitution .specia-icon-effect-1 .specia-icon {
+    background: #182947; }
+  .constitution .specia-icon-effect-2 .specia-icon:after {
+    background: #182947; }
+  .constitution .specia-icon-effect-3 .specia-icon:after {
+    background: #182947; }
+  .constitution .specia-icon-effect-4 .specia-icon {
+    background: #182947;
+    box-shadow: 0 0 0 4px #182947; }
+  .constitution .specia-icon-effect-5 .specia-icon {
+    box-shadow: 0 0 0 4px #182947;
+    background: #182947; }
+  .constitution .specia-icon-effect-6 .specia-icon {
+    background: #182947;
+    box-shadow: 0 0 0 4px #182947; }
+  .constitution .specia-icon-effect-8 .specia-icon {
+    background: #182947; }
+  .constitution .blog-version-1 footer.entry-footer {
+    background: #182947; }
+  .constitution .entry-content .more-link {
+    color: #182947;
+    border: solid 2px #182947; }
+  .constitution .footer-sidebar .widget table caption, .constitution .woo-sidebar .widget table caption {
+    background: #182947; }
+  .constitution .footer-sidebar .background-overlay {
+    background: #182947; }
+  .constitution footer.entry-footer {
+    background: #182947; }
+  .constitution h2.entry-title a {
+    color: #182947; }
+  .constitution .entry-header h2.entry-title {
+    color: #182947; }
+  .constitution .error-page h2 {
+    color: #182947; }
+  .constitution button,
+  .constitution input[type="button"],
+  .constitution input[type="reset"],
+  .constitution input[type="submit"] {
+    color: #182947;
+    border: solid 2px #182947; }
+  .constitution .sidebar .widget .widget-title {
+    color: #182947; }
+  .constitution .sidebar .widget input[type="submit"] {
+    color: #182947;
+    border: solid 2px #182947; }
+  .constitution .sidebar .widget table caption {
+    background: #182947; }
+  .constitution h1, .constitution .h1,
+  .constitution h2, .constitution .h2,
+  .constitution h3, .constitution .h3,
+  .constitution h4, .constitution .h4,
+  .constitution h5, .constitution .h5,
+  .constitution h6, .constitution .h6 {
+    color: #182947; }
+  .constitution blockquote cite, .constitution blockquote small {
+    color: #182947; }
+  .constitution address {
+    color: #182947; }
+  .constitution ins {
+    color: #182947; }
+
 .navbar {
   background: #D4D4D4;
   border-color: #e9e9e9; }
@@ -60,19 +281,5 @@
 
 .portfolio-version {
   background: #A8A7A7; }
-
-/* Change peach/orange to red */
-.constitution .specia-icon,
-.constitution .header-top-info-1 .social li a i:hover {
-  background-color: #860918; }
-.constitution .ca-menu:hover .ca-icon,
-.constitution .ca-menu:hover .ca-main,
-.constitution a.comment-reply-link:hover, .constitution a.comment-reply-link:focus,
-.constitution .error-page h1,
-.constitution .navbar-brand::first-letter {
-  color: #860918; }
-.constitution .navbar.navbar-default .navbar-nav > .active > a, .constitution .navbar.navbar-default .navbar-nav > .active > a:hover, .constitution .navbar-nav .dropdown-menu > .active > a, .constitution .navbar-nav .dropdown-menu > .active > a:hover,
-.constitution .dropdown-menu > li > a:hover, .constitution .dropdown-menu > li > a:focus {
-  background-color: #9e0b1c !important; }
 
 /*# sourceMappingURL=style.css.map */
