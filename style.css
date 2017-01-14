@@ -77,8 +77,13 @@
   .constitution .navbar-nav .dropdown-menu > .active > a,
   .constitution .navbar-nav .dropdown-menu > .active > a:hover,
   .constitution .dropdown-menu > li > a:hover,
-  .constitution .dropdown-menu > li > a:focus {
+  .constitution .dropdown-menu > li > a:focus,
+  .constitution .nav-pills > li.active > a,
+  .constitution .nav-pills > li.active > a:hover,
+  .constitution .nav-pills > li.active > a:focus {
     background-color: #9e0b1c !important; }
+  .constitution a:focus, .constitution a:hover {
+    color: #860918; }
   .constitution .slider-version-one .caption h1 span {
     color: #860918; }
   .constitution .specia-btn-1:hover {
@@ -276,6 +281,13 @@
 .slider-version-one .caption p {
   color: #333333; }
 
+.owl-carousel .owl-item {
+  max-height: 400px; }
+
+.constitution .call-to-action h2,
+.constitution .call-to-action h2 span {
+  color: #f4f4f4; }
+
 .top-scroll {
   color: #860918 !important; }
 
@@ -287,9 +299,50 @@
     Brand Typography
 =========================================
 -----------------------------------------*/
-h1 {
-  font-size: 36px;
-  /* Some tweener fallback that doesn't look awful */
-  font-size: 5.4vw; }
+.constitution .title {
+  float: left; }
+  .constitution .title .playfairSC {
+    font-size: 76px;
+    font-size: 5.8vw;
+    line-height: 130px;
+    font-family: 'Playfair Display SC';
+    text-align: center; }
+  .constitution .title .site-description {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: -30px; }
+.constitution .custom-logo-link {
+  float: left;
+  margin-right: 30px; }
+.constitution .navbar-header {
+  float: none; }
+.constitution .navbar .nav {
+  margin-top: 3rem; }
+@media (max-width: 768px) {
+  .constitution .custom-logo {
+    width: 150px;
+    margin: auto; }
+  .constitution .custom-logo-link {
+    float: none;
+    margin-right: 0px;
+    margin: auto;
+    width: 100%;
+    display: block; }
+  .constitution .title {
+    float: none; }
+    .constitution .title .playfairSC {
+      font-size: 32px;
+      text-align: center; }
+    .constitution .title .site-description {
+      font-size: 26px; } }
+@media (min-width: 1400px) {
+  .constitution .title {
+    float: left; }
+    .constitution .title .playfairSC {
+      font-size: 76px; }
+    .constitution .title .site-description {
+      font-size: 26px; } }
 
 /*# sourceMappingURL=style.css.map */
