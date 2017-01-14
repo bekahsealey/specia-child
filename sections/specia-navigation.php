@@ -9,20 +9,24 @@
 					<?php
 						if(has_custom_logo())
 						{	
-							the_custom_logo();
-							
-							echo bloginfo('name'); 
-						}
-						else { 
-							echo bloginfo('name'); 
+							the_custom_logo(); 
+
 						}
 					?>
+
+					<div class="title">
+							
+						<h1 class="playfairSC"><?php bloginfo('name'); ?></h1>
 					
 					<?php
+
 						$description = get_bloginfo( 'description');
 						if ($description) : ?>
 							<p class="site-description"><?php echo $description; ?></p>
 					<?php endif; ?>
+
+					</div>
+					
 				</a>
 				
 				
@@ -44,7 +48,7 @@
 					array(  
 						'theme_location' => 'primary_menu',
 						'container'  => '',
-						'menu_class' => 'nav navbar-nav navbar-right',
+						'menu_class' => 'nav nav-pills nav-justified',
 						'fallback_cb' => 'specia_fallback_page_menu',
 						'walker' => new specia_nav_walker()
 						 ) 
