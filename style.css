@@ -282,4 +282,14 @@
 .portfolio-version {
   background: #A8A7A7; }
 
+/* --------------------------------------
+=========================================
+    Brand Typography
+=========================================
+-----------------------------------------*/
+h1 {
+  font-size: 36px;
+  /* Some tweener fallback that doesn't look awful */
+  font-size: 5.4vw; }
+
 /*# sourceMappingURL=style.css.map */
