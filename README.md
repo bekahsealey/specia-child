@@ -53,7 +53,7 @@ _What you need:_
 		* Click the "Publish" button in the top right column box
 	* a page created for the Call to Action section below the Slider
 		* title this page with an explanatory description for the Call to Action Section
-		* do not put content on this page, or the Call to Action section will cycle through the text and flicker
+		* Restrict content to 55 words, to avoid clipping at the end.
 		* Click the "Publish" button in the top right column box
 	* pages created for each tile you wish to be visible on the Home Page after the Call to Action section, either 3 or 6
 		* Select "Pages" on the Dashboard left column, then click "Add New" 
