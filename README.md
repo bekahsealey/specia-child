@@ -51,10 +51,11 @@ _What you need:_
 			* In the right sidebar under the logo image, enter an alt text description of your image
 			* Click "Select" at the bottom right corner of the screen
 		* Click the "Publish" button in the top right column box
-	* a page created for the Call of Action section below the Slider
+	* a page created for the Call to Action section below the Slider
 		* title this page with an explanatory description for the Call to Action Section
 		* do not put content on this page, or the Call to Action section will cycle through the text and flicker
-	* pages created for each tile you wish to be visible on the Home Page under the Call to Action section, in sets of 3, up to 6
+		* Click the "Publish" button in the top right column box
+	* pages created for each tile you wish to be visible on the Home Page after the Call to Action section, either 3 or 6
 		* Select "Pages" on the Dashboard left column, then click "Add New" 
 		* Enter a title
 		* Content can be added later
@@ -88,7 +89,7 @@ _What you need:_
 			* In the right sidebar under the logo image, enter an alt text description of your image
 			* Click "Select" at the bottom right corner of the screen
 		5. Click "Save & Publish" at the top right corner of the Customize side panel.
-		6. Click the back arrow next to "Customizing Site Identity" directly below the "Save & Publish" button
+		6. Click the back arrow next to "Customizing Site Identity" directly below the "Save & Publish" button (scroll up if it is not visible)
 2. Skip sections "Colors", "Header Image", "Background Image", "Menus", and "Widgets"
 3. Setting up Static Front Page
 	* Click "Static Front Page"
@@ -163,7 +164,7 @@ _What you need:_
 6. Setting up Footer Section
 	* Click "Footer Section"
 		1. Click "Copyright Content"
-			* Enter your state party name in the text box under "Copyright Content"
+			* Enter **Copyright &copy;{current year} {your state party name}. All Rights Reserved** replacing the items in brackets with the corresponding information in the text box under "Copyright Content"
 			* Click "Save & Publish" at the top right corner of the Customize side panel
 			* Click the back arrow next to "Customizing > Footer Section Copyright Content" directly below the "Save & Publish" button
 		2. Click "Payment Icon"
