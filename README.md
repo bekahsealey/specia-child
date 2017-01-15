@@ -74,28 +74,28 @@ _What you need:_
 
 This theme has a default section for Social Media Icons, which include Facebook, LinkedIn, Twitter, Google Plus, and Instagram. If you have any additional Social Media accounts, such as YouTube, Pinterest, Vimeo, etc. you will want to install the optional Social Icons Themegrill Plugin
 
-	* In your Dashboard, click "Plugins" on the left hand sidebar
-	* Click "Add New", to the right of the title 
-	* In the "Search Plugins" search field, enter 'Social Icons'
-	* Click "Install Now" on the plugin that reads "by ThemeGrill"
-	* Click "Activate"
-	* Click "Settings" on the left hand sidebar
-	* Click "Social Icons"
-	* Click "Add New" next to the Social Icons title
-	* Enter a title for your menu of icons
-	* Social Data setup
-		* In the "Social Data" box, Background Style, click the drop down arrow and select "Square"
-		* Skip "Choose Icon Size" 
-		* Check the box for "Greyscale Icon" and skip "Manage Label" and "Open New Tab"
-		* On the left column in the "Social Data" box, click "Linked Icons"
-		* Change the Label on the Twitter row to Twitter, then enter your full Twitter account link under "Social URL"
-		* Change the label on the Facebook row to Facebook, then enter your full Facebook link under "Social URL"
-		* For additional accounts, click "Add Icon"
-			* Enter the name of the service in "Label" field
-			* Enter your account link in the "Social URL" field (your icon may not show up until you click "Publish" if you paste in your link, but it will still work fine.)
-		* When you have entered all of your accounts, click "Publish" in the Publish box on the right side
-	* Click "Social Icons" on the left sidebar under Settings again
-	* In the center field of the table, under the heading "Shortcode," note the id number. We will use that later to connect to this group of icons
+* In your Dashboard, click "Plugins" on the left hand sidebar
+* Click "Add New", to the right of the title 
+* In the "Search Plugins" search field, enter 'Social Icons'
+* Click "Install Now" on the plugin that reads "by ThemeGrill"
+* Click "Activate"
+* Click "Settings" on the left hand sidebar
+* Click "Social Icons"
+* Click "Add New" next to the Social Icons title
+* Enter a title for your menu of icons
+* Social Data setup
+	* In the "Social Data" box, Background Style, click the drop down arrow and select "Square"
+	* Skip "Choose Icon Size" 
+	* Check the box for "Greyscale Icon" and skip "Manage Label" and "Open New Tab"
+	* On the left column in the "Social Data" box, click "Linked Icons"
+	* Change the Label on the Twitter row to Twitter, then enter your full Twitter account link under "Social URL"
+	* Change the label on the Facebook row to Facebook, then enter your full Facebook link under "Social URL"
+	* For additional accounts, click "Add Icon"
+		* Enter the name of the service in "Label" field
+		* Enter your account link in the "Social URL" field (your icon may not show up until you click "Publish" if you paste in your link, but it will still work fine.)
+	* When you have entered all of your accounts, click "Publish" in the Publish box on the right side
+* Click "Social Icons" on the left sidebar under Settings again
+* In the center field of the table, under the heading "Shortcode," note the id number. We will use that later to connect to this group of icons
 
 
 
