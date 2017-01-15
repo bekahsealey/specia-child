@@ -35,7 +35,7 @@
 .constitution {
   /* Slider CSS */
   /* Service CSS */
-  /* Cal Action CSS */
+  /* Call Action CSS */
   /* Service Section CSS */
   /* Features Section CSS */
   /* Latest Blog Section CSS */
@@ -63,7 +63,18 @@
   /* Error Page CSS */
   /* Form Element CSS */
   /*Sidebar Area CSS */
-  /* Typography */ }
+  /* Typography */
+  /* @end colors */
+  /* --------------------------------------
+  =========================================
+      Brand Typography
+  =========================================
+  -----------------------------------------*/
+  /* --------------------------------------
+  =========================================
+      Social Icons 
+  =========================================
+  -----------------------------------------*/ }
   .constitution .specia-icon,
   .constitution .header-top-info-1 .social li a i:hover {
     background-color: #860918; }
@@ -256,93 +267,91 @@
     color: #182947; }
   .constitution ins {
     color: #182947; }
-
-.navbar {
-  background: #D4D4D4;
-  border-color: #e9e9e9; }
-
-.header-top-info-1 {
-  background: #464646;
-  border-bottom: 1px solid #fff; }
-
-.header-top-info-1 .info li i, .header-top-info-1 .info li a {
-  color: #D5D5D5; }
-
-.site-content .call-to-action .background-overlay {
-  background-color: #182947; }
-
-.site-content .call-to-action .background-overlay .call-btn-1 {
-  background-color: #9e0b1c; }
-
-.service-version-one {
-  background: #f4f4f4; }
-
-.slider-version-one .caption h1,
-.slider-version-one .caption p {
-  color: #333333; }
-
-.owl-carousel .owl-item {
-  max-height: 400px; }
-
-.constitution .call-to-action h2,
-.constitution .call-to-action h2 span {
-  color: #f4f4f4; }
-
-.top-scroll {
-  color: #860918 !important; }
-
-.portfolio-version {
-  background: #A8A7A7; }
-
-/* --------------------------------------
-=========================================
-    Brand Typography
-=========================================
------------------------------------------*/
-.constitution .title {
-  float: left; }
-  .constitution .title .playfairSC {
-    font-size: 76px;
-    font-size: 5.8vw;
-    line-height: 130px;
-    font-family: 'Playfair Display SC';
-    text-align: center; }
-  .constitution .title .site-description {
-    font-family: Georgia, serif;
-    font-size: 26px;
-    font-size: 2vw;
-    text-align: center;
-    margin-top: -30px; }
-.constitution .custom-logo-link {
-  float: left;
-  margin-right: 30px; }
-.constitution .navbar-header {
-  float: none; }
-.constitution .navbar .nav {
-  margin-top: 3rem; }
-@media (max-width: 768px) {
-  .constitution .custom-logo {
-    width: 150px;
-    margin: auto; }
-  .constitution .custom-logo-link {
-    float: none;
-    margin-right: 0px;
-    margin: auto;
-    width: 100%;
-    display: block; }
-  .constitution .title {
-    float: none; }
-    .constitution .title .playfairSC {
-      font-size: 32px;
-      text-align: center; }
-    .constitution .title .site-description {
-      font-size: 26px; } }
-@media (min-width: 1400px) {
+  .constitution .navbar {
+    background: #f4f4f4;
+    border-color: #e9e9e9; }
+  .constitution .header-top-info-1 {
+    background: #464646;
+    border-bottom: 1px solid #fff; }
+  .constitution .header-top-info-1 .info li i, .constitution .header-top-info-1 .info li a {
+    color: #D5D5D5; }
+  .constitution .site-content .call-to-action .background-overlay {
+    background-color: #182947; }
+  .constitution .site-content .call-to-action .background-overlay .call-btn-1 {
+    background-color: #9e0b1c; }
+  .constitution .service-version-one {
+    background: #f4f4f4; }
+  .constitution .slider-version-one .caption h1,
+  .constitution .slider-version-one .caption p {
+    color: #333333; }
+  .constitution .owl-carousel .owl-item {
+    max-height: 400px; }
+  .constitution .call-to-action h2,
+  .constitution .call-to-action h2 span {
+    color: #f4f4f4; }
+  .constitution .top-scroll {
+    color: #860918 !important; }
+  .constitution .portfolio-version {
+    background: #A8A7A7; }
   .constitution .title {
     float: left; }
     .constitution .title .playfairSC {
-      font-size: 76px; }
+      font-size: 76px;
+      font-size: 5.8vw;
+      line-height: 130px;
+      font-family: 'Playfair Display SC';
+      text-align: center; }
     .constitution .title .site-description {
-      font-size: 26px; } }
+      font-family: Georgia, serif;
+      font-size: 26px;
+      font-size: 2vw;
+      text-align: center;
+      margin-top: -30px; }
+  .constitution .custom-logo-link {
+    float: left;
+    margin-right: 30px; }
+  .constitution .navbar-header {
+    float: none; }
+  .constitution .navbar .nav {
+    margin-top: 3rem; }
+  @media (max-width: 768px) {
+    .constitution .custom-logo {
+      width: 150px;
+      margin: auto; }
+    .constitution .custom-logo-link {
+      float: none;
+      margin-right: 0px;
+      margin: auto;
+      width: 100%;
+      display: block; }
+    .constitution .title {
+      float: none; }
+      .constitution .title .playfairSC {
+        font-size: 32px;
+        text-align: center; }
+      .constitution .title .site-description {
+        font-size: 26px; } }
+  @media (min-width: 1400px) {
+    .constitution .title {
+      float: left; }
+      .constitution .title .playfairSC {
+        font-size: 76px; }
+      .constitution .title .site-description {
+        font-size: 26px; } }
+  .constitution .header-top-info-1 .social-icons-lists.social-icons-greyscale.icons-background-square {
+    line-height: 20px;
+    padding-top: 6px; }
+  .constitution .header-top-info-1 .social-icons-lists .socicon {
+    padding: 4px;
+    font-size: 12px !important; }
+  .constitution .header-top-info-1 .social-icons-lists li.social-icons-list-item {
+    margin: 0 2pxs; }
+  .constitution .header-top-info-1 .social-icons-lists.social-icons-greyscale .socicon {
+    color: #fff;
+    background-color: #747474;
+    border-radius: 3px; }
+  .constitution .header-top-info-1 .social-icons-lists li.social-icons-list-item a.social-icon:hover .socicon {
+    opacity: 1;
+    background-color: #860918; }
 
 /*# sourceMappingURL=style.css.map */
