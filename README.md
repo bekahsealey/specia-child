@@ -69,6 +69,36 @@ _What you need:_
 		* Select "Pages" on the Dashboard left column, then click "Add New" 
 		* Enter a title (this page will not display its own content or featured image so leave those areas blank)		
 		* Click the "Publish" button in the top right column box
+
+### Optional Social Icons ThemeGrill Plugin
+
+This theme has a default section for Social Media Icons, which include Facebook, LinkedIn, Twitter, Google Plus, and Instagram. If you have any additional Social Media accounts, such as YouTube, Pinterest, Vimeo, etc. you will want to install the optional Social Icons Themegrill Plugin
+	* In your Dashboard, click "Plugins" on the left hand sidebar
+	* Click "Add New", to the right of the title 
+	* In the "Search Plugins" search field, enter 'Social Icons'
+	* Click "Install Now" on the plugin that reads "by ThemeGrill"
+	* Click "Activate"
+	* Click "Settings" on the left hand sidebar
+	* Click "Social Icons"
+	* Click "Add New" next to the Social Icons title
+	* Enter a title for your menu of icons
+	* Social Data setup
+		* In the "Social Data" box, Background Style, click the drop down arrow and select "Square"
+		* Skip "Choose Icon Size" 
+		* Check the box for "Greyscale Icon" and skip "Manage Label" and "Open New Tab"
+		* On the left column in the "Social Data" box, click "Linked Icons"
+		* Change the Label on the Twitter row to Twitter, then enter your full Twitter account link under "Social URL"
+		* Change the label on the Facebook row to Facebook, then enter your full Facebook link under "Social URL"
+		* For additional accounts, click "Add Icon"
+			* Enter the name of the service in "Label" field
+			* Enter your account link in the "Social URL" field (your icon may not show up until you click "Publish" if you paste in your link, but it will still work fine.)
+		* When you have entered all of your accounts, click "Publish" in the Publish box on the right side
+	* Click "Social Icons" on the left sidebar under Settings again
+	* In the center field of the table, under the heading "Shortcode," note the id number. We will use that later to connect to this group of icons
+
+
+
+
  
 ### Begin Customization
 * Enter Customize - Dashboard -> Appearance -> Customize
@@ -101,6 +131,9 @@ _What you need:_
 4. Setting up Header Section
 	* Click "Header Section"
 		1. Click "Social Media"
+			* Check the list of available social media accounts and note whether all your accounts could be listed here...if you use YouTube, Pinterest, Vimeo and many others, you'll want to use the optional Social Icons ThemeGrill Plugin.
+				* Click the radio button labeled "Hide" and skip to "Save & Publish" step if you already installed the Optional Social Icons ThemeGrill Plugin
+				* If you did not already install it, go back to the "Optional Social Icons ThemeGrill Plugin" step and follow
 			* Click the radio button labeled "Show"
 			* Enter your social media links under the corresponding labels
 			* Click "Save & Publish" at the top right corner of the Customize side panel(Do not be alarmed if nothing seems to change)
@@ -115,6 +148,11 @@ _What you need:_
 			* Click the radio button labeled "Hide" to turn off the Sticky Header
 			* Click "Save & Publish" at the top right corner of the Customize side panel
 			* Click the back arrow next to "Customizing > Header Section Sticky Header" directly below the "Save & Publish" button
+		3. Click "Social Icons ThemeGrill Plugin"
+			* If you are using the default icons under the previous "Social Media" step, click the radio button labeled "Hide" to turn off the optional menu and skip to the "Save & Publish" step
+			* Enter the id of your Social Icons ThemeGrill Plugin icon group you noted in the installation step
+			* Click "Save & Publish" at the top right corner of the Customize side panel
+			* Click the back arrow next to "Customizing > Header Section Social Icons ThemeGrill Plugin" directly below the "Save & Publish" button
 		4. Click the back arrow next to "You are customizing Header Section" directly below the "Save & Publish" button
 5. Setting up Home Section
 	* Click "Home Section"
