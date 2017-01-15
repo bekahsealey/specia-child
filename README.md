@@ -211,3 +211,7 @@ This theme has a default section for Social Media Icons, which include Facebook,
 			* Click the back arrow next to "Customizing > Footer Section Copyright Content" directly below the "Save & Publish" button
 		3. Click the back arrow next to "You are customizing Footer Section" directly below the "Save & Publish" button
 **end customization**
+
+### Using WordPress
+
+Visit the [WordPress website](https://codex.wordpress.org/Main_Page) for more on how to create content and maintain your website.
