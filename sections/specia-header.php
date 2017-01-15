@@ -74,6 +74,7 @@
 						</ul>
 					<?php } ?>
                 <!-- /End Social Media Icons-->
+                <?php my_social_icons(); ?>
             </div>
 			
 			<?php 
