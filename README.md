@@ -73,6 +73,7 @@ _What you need:_
 ### Optional Social Icons ThemeGrill Plugin
 
 This theme has a default section for Social Media Icons, which include Facebook, LinkedIn, Twitter, Google Plus, and Instagram. If you have any additional Social Media accounts, such as YouTube, Pinterest, Vimeo, etc. you will want to install the optional Social Icons Themegrill Plugin
+
 	* In your Dashboard, click "Plugins" on the left hand sidebar
 	* Click "Add New", to the right of the title 
 	* In the "Search Plugins" search field, enter 'Social Icons'
