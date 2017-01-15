@@ -54,7 +54,8 @@
 					<div class="container inner-table">
 						<div class="inner-table-cell">
 							<div class="caption verticle-center text-left wow zoomIn">
-								<h1 class="wow fadeInDown animated" data-wow-delay="0.4s"><?php echo $title; ?></span></h1>
+								<h1 class="wow fadeInDown animated" data-wow-delay="0.4s">
+							<a href="<?php echo get_permalink(); ?>"> <?php echo $title; ?></a></h1>
 								<p class="wow fadeInDown animated"> 
 									 <?php echo $content; ?>
 								</p>

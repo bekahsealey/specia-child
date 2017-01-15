@@ -281,6 +281,9 @@
     background-color: #9e0b1c; }
   .constitution .service-version-one {
     background: #f4f4f4; }
+  .constitution .slider-version-one .caption {
+    max-height: 300px;
+    overflow: hidden; }
   .constitution .slider-version-one .caption h1,
   .constitution .slider-version-one .caption p {
     color: #333333; }
