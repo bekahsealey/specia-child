@@ -97,7 +97,8 @@ This theme has a default section for Social Media Icons, which include Facebook,
 * Click "Social Icons" on the left sidebar under Settings again
 * In the center field of the table, under the heading "Shortcode," note the id number. We will use that later to connect to this group of icons
 
-[[https://github.com/bekahsealey/specia-child/blob/master/img/sections-diagram.jpg|alt=diagram]]
+
+![diagram](https://github.com/bekahsealey/specia-child/blob/master/img/sections-diagram.jpg)
  
 ### Begin Customization
 * Enter Customize - Dashboard -> Appearance -> Customize
