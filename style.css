@@ -15,17 +15,6 @@
  * Colors
  *
  */
-/* DEEP REDS */
-/* Main Red color */
-/* DEEP BLUES */
-/* Main Darker Blue color */
-/* MID BLUES */
-/* Main Mid Blue color */
-/* MID GRAYS to DARK */
-/* Main Mid Gray color */
-/* LIGHT GRAYS */
-/* Main Light Gray color */
-/* As RGBa codes */
 /* Main Red color */
 /* Main Darker Blue color */
 /* Main Mid Blue color */
@@ -326,7 +315,7 @@
     float: left; }
     .constitution .title .playfairSC {
       font-size: 76px;
-      font-size: 5.8vw;
+      font-size: 5.4vw;
       line-height: 130px;
       font-family: 'Playfair Display SC';
       text-align: center; }
