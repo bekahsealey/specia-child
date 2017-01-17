@@ -267,10 +267,18 @@
     background: #f3f3f3;
     border-color: #e9e9e9; }
   .constitution .nav-pills > li > a {
-    background: #d5d5d5;
+    background: #D5D5D5;
     text-transform: uppercase; }
+  .constitution .nav-pills > li > a:hover,
+  .constitution .nav-pills > li > a:focus {
+    background: #e6e6e6;
+    color: #464646; }
   .constitution .nav-justified > li {
-    padding: 0 2px; }
+    padding: 0 2px 8px; }
+  .constitution .dropdown-menu {
+    background-color: #e6e6e6; }
+  .constitution .dropdown-menu > li > a {
+    text-transform: capitalize; }
   .constitution .more-link {
     text-transform: uppercase;
     white-space: nowrap; }
@@ -282,13 +290,13 @@
   .constitution .header-top-info-1 .info li i, .constitution .header-top-info-1 .info li a {
     color: #D5D5D5; }
   .constitution header[role="banner"] {
-    border-bottom: 2px solid #182947; }
+    border-bottom: 3px solid #860918; }
   .constitution .site-content .call-to-action .background-overlay {
     background-color: #182947; }
   .constitution .site-content .call-to-action .background-overlay .call-btn-1 {
     background-color: #9e0b1c; }
   .constitution .service-version-one {
-    background: #f3f3f3; }
+    background: #A8A7A7; }
   .constitution .slider-version-one .caption {
     max-height: 300px;
     overflow: hidden; }
@@ -322,11 +330,7 @@
   .constitution .top-scroll {
     color: #860918 !important; }
   .constitution .portfolio-version {
-    background: #A8A7A7; }
-  .constitution .portfolio-version p,
-  .constitution .portfolio-version li,
-  .constitution .portfolio-version span {
-    color: #f3f3f3; }
+    background: #f3f3f3; }
   .constitution .portfolio-version h2.section-heading,
   .constitution .portfolio-version h3 {
     color: #860918; }
@@ -381,6 +385,16 @@
         font-size: 26px;
         line-height: 1.4;
         margin-top: 20px; } }
+  @media (min-width: 768px) {
+    .constitution .service-title a {
+      font-size: 2.2rem; }
+    .constitution .grid figure h2 {
+      font-size: 2.8rem;
+      text-shadow: 0 1px 3px #000; }
+    .constitution p {
+      font-size: 1.6rem; }
+    .constitution .grid figure img {
+      filter: blur(0.2px); } }
   @media (min-width: 1400px) {
     .constitution .title {
       float: left; }

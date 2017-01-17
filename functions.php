@@ -94,6 +94,66 @@ function specia_child_customizer_options( $wp_customize ) {
 			'type'           => 'number',
 		)  
 	);
+	// Portfolio 4 //
+	$wp_customize->add_setting(
+	'portfolio-child-page1',
+		array(
+			'default' => '0',
+			'capability' => 'edit_theme_options',
+			'sanitize_callback'	=> 'specia_sanitize_integer',
+		)
+	);
+		
+	$wp_customize->add_control(
+	'portfolio-child-page1',
+		array(
+        	'priority'      => 50,
+			'type'	=> 'dropdown-pages',
+			'label'	=> __('Select Page for Portfolio Four:','specia'),
+			'section'	=> 'portfolio_setting',
+			'settings'  => 'portfolio-child-page1',
+		)
+	);	
+	// Portfolio 5 //
+	$wp_customize->add_setting(
+	'portfolio-child-page2',
+		array(
+			'default' => '0',
+			'capability' => 'edit_theme_options',
+			'sanitize_callback'	=> 'specia_sanitize_integer',
+		)
+	);
+		
+	$wp_customize->add_control(
+	'portfolio-child-page2',
+		array(
+        	'priority'      => 50,
+			'type'	=> 'dropdown-pages',
+			'label'	=> __('Select Page for Portfolio Five:','specia'),
+			'section'	=> 'portfolio_setting',
+			'settings'  => 'portfolio-child-page2',
+		)
+	);	
+	// Portfolio 6 //
+	$wp_customize->add_setting(
+	'portfolio-child-page3',
+		array(
+			'default' => '0',
+			'capability' => 'edit_theme_options',
+			'sanitize_callback'	=> 'specia_sanitize_integer',
+		)
+	);
+		
+	$wp_customize->add_control(
+	'portfolio-child-page3',
+		array(
+        	'priority'      => 50,
+			'type'	=> 'dropdown-pages',
+			'label'	=> __('Select Page for Portfolio Six:','specia'),
+			'section'	=> 'portfolio_setting',
+			'settings'  => 'portfolio-child-page3',
+		)
+	);	
 }
 
 function my_social_icons() {
@@ -105,6 +165,24 @@ function my_social_icons() {
 	else {
 		return;
 	}
+}
+
+function extend_portfolio_tiles() {
+	for($portfolio =1; $portfolio<4; $portfolio++) 
+	{
+		if( get_theme_mod('portfolio-child-page'.$portfolio)) 
+		{
+			$portfolio_child_query = new WP_query('page_id='.get_theme_mod('portfolio-child-page'.$portfolio,true));
+			while( $portfolio_child_query->have_posts() ) 
+			{ 
+				$portfolio_child_query->the_post();
+				$image = wp_get_attachment_url( get_post_thumbnail_id($post->ID));
+				$img_arr[] = $image;
+				$id_arr[] = $post->ID;
+			}    
+		}
+	}
+	
 }
 
 ?>
