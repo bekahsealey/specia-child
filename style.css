@@ -332,7 +332,7 @@
     color: #860918; }
   .constitution .footer-copyright, .constitution .footer-copyright p, .constitution .footer-copyright p a {
     background: #091830; }
-  .constitution h1, .constitution h2, .constitution h2.entry-title a, .constitution h3, .constitution h4, .constitution h5, .constitution h6, .constitution .service-title a {
+  .constitution h2, .constitution h2.entry-title a, .constitution h3, .constitution h4, .constitution h5, .constitution h6, .constitution .service-title a {
     font-family: Georgia, serif !important;
     text-transform: capitalize; }
   .constitution .title {
