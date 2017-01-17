@@ -74,10 +74,10 @@
 							?>
 							
 						</div>
-						<div class="service-title"><a href="<?php echo get_permalink(); ?>"> <?php echo $title; ?>
+						<div class="service-title"><a href="<?php echo get_permalink(); ?>"> <?php echo $title; ?></a>
 
 						<div class="service-description"><p> <?php the_excerpt(); ?> </p></div>
-						 </a></div>
+						 </div>
 					</div>
 				</div>
 				

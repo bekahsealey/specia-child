@@ -24,7 +24,7 @@
             </div>
 			
 			<?php 
-				if( is_active_sidebar('specia_feature_widget') ) :
+				if( is_active_sidebar('specia_child_feature_widget') ) :
 					echo '<div class="row padding-bottom-30">';
 						dynamic_sidebar( 'specia_child_feature_widget' );
 					echo '</div>';

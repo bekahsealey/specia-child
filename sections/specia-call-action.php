@@ -10,7 +10,7 @@
 <section class="call-to-action wow fadeInDown">
     <div class="background-overlay">
         <div class="container">
-            <div class="row padding-top-25 padding-bottom-25">
+            <div class="row padding-top-10 padding-bottom-5">
                 
                 <div class="col-md-9">
 					<?php 
