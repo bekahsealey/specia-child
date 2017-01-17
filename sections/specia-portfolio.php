@@ -19,6 +19,19 @@
 				$id_arr[] = $post->ID;
 			}    
 		}
+	}for($child_portfolio =1; $child_portfolio<4; $child_portfolio++) 
+	{
+		if( get_theme_mod('portfolio-child-page'.$child_portfolio)) 
+		{
+			$portfolio_child_query = new WP_query('page_id='.get_theme_mod('portfolio-child-page'.$portfolio,true));
+			while( $portfolio_child_query->have_posts() ) 
+			{ 
+				$portfolio_child_query->the_post();
+				$image = wp_get_attachment_url( get_post_thumbnail_id($portfolio_child_query->ID));
+				$img_arr[] = $image;
+				$id_child_arr[] = $portfolio_child_query->ID;
+			}    
+		}
 	}
 ?>
 
@@ -75,7 +88,10 @@
 					
 					<?php $i++; }  ?>
 					
-				</div>
+				</div>	
+
+				<?php get_template_part('sections/specia','portfolio2'); ?>
+				
 			</div>
 		</div>
 	</section>

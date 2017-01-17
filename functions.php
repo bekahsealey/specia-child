@@ -94,6 +94,35 @@ function specia_child_customizer_options( $wp_customize ) {
 			'type'           => 'number',
 		)  
 	);
+
+
+	/*=========================================
+	Extended Portfolio Settings Section
+	=========================================*/
+	$wp_customize->add_setting( 
+		'hide_show_child_portfolio' , 
+			array(
+			'default' => __( 'on', 'specia' ),
+			'capability'     => 'edit_theme_options',
+			'sanitize_callback' => 'specia_sanitize_select',
+		) 
+	);
+	
+	$wp_customize->add_control(
+	'hide_show_child_portfolio' , 
+		array(
+        	'priority'      => 49,
+			'label'          => __( 'Extended Portfolio Hide/Show', 'specia' ),
+			'section'        => 'portfolio_setting',
+			'type'           => 'radio',
+			'description'    => __( 'Click to Hide / Show Extended Portfolio Section', 'specia' ),
+			'choices'        => 
+			array(
+				'on' => __( 'Show', 'specia' ),
+				'off' => __( 'Hide', 'specia' )
+			) 
+		) 
+	);
 	// Portfolio 4 //
 	$wp_customize->add_setting(
 	'portfolio-child-page1',
@@ -165,24 +194,6 @@ function my_social_icons() {
 	else {
 		return;
 	}
-}
-
-function extend_portfolio_tiles() {
-	for($portfolio =1; $portfolio<4; $portfolio++) 
-	{
-		if( get_theme_mod('portfolio-child-page'.$portfolio)) 
-		{
-			$portfolio_child_query = new WP_query('page_id='.get_theme_mod('portfolio-child-page'.$portfolio,true));
-			while( $portfolio_child_query->have_posts() ) 
-			{ 
-				$portfolio_child_query->the_post();
-				$image = wp_get_attachment_url( get_post_thumbnail_id($post->ID));
-				$img_arr[] = $image;
-				$id_arr[] = $post->ID;
-			}    
-		}
-	}
-	
 }
 
 ?>
