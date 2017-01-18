@@ -7,6 +7,10 @@ function specia_child_enqueue_styles() {
 	wp_enqueue_script( 'my-scalem', get_stylesheet_directory_uri() . '/js/myscalem.js', array( 'js-scalem' ), '1.0.0', true );
 }
 
+// Add custom homepage image size
+
+add_image_size( 'home', 360, 240, true );
+
 function remove_some_widgets(){
 
 	// Unregister some of the Specia sidebars
@@ -27,6 +31,14 @@ function specia_child_widgets_init() {
 		'after_title' => '</h3><div class="title-border"></div>',
 	) );
 }
+/*
+ * Add category option to pages
+ *
+ */
+function specia_child_add_taxonomies_to_pages() {
+ register_taxonomy_for_object_type( 'category', 'page' );
+ }
+add_action( 'init', 'specia_child_add_taxonomies_to_pages' );
 
 add_action( 'widgets_init', 'specia_child_widgets_init', 12 );
 
