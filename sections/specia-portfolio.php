@@ -59,6 +59,18 @@
 						$i=1;
 						foreach($id_arr as $id)
 						{ 
+							$template = get_page_template_slug( $id );
+
+							if ( $template == "templates/template-category-highlight.php") {
+								$cat = get_the_category( $id );
+								$cat = $cat[0]->cat_ID; 
+								$cat_query = new WP_Query( array( 'cat' => $cat, 'posts_per_page' => 1, 'orderby' => 'modified', 'order'   => 'DESC',) );
+								$id = $cat_query->post->ID;
+
+							} else {
+								$id == $id;
+							}
+
 							$title	= get_the_title( $id ); 
 							$post	= get_post($id);
 
@@ -72,7 +84,7 @@
 						<div class="grid wow bounceIn">
 							<figure class="effect-sadie">
 								<?php 
-									if ( has_post_thumbnail() ) { the_post_thumbnail(); }  
+									if ( has_post_thumbnail() ) { the_post_thumbnail( 'home' ); }  
 								?>
 								
 								<figcaption>

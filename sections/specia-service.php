@@ -61,7 +61,7 @@
 							<?php $image = wp_get_attachment_url( get_post_thumbnail_id($post->ID));
 								if( !empty($image) ) { ?>
 									<figure>
-											<img src="<?php echo esc_url( $image ); ?>" alt="<?php the_title_attribute();?>" >
+											<?php the_post_thumbnail( 'home' ); ?>
 									</figure>
 								<?php } else { ?>
 								<?php if( get_post_meta(get_the_ID(),'icons', true ) ): ?>

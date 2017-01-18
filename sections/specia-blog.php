@@ -32,7 +32,7 @@
 					
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-						<a  href="<?php the_permalink(); ?>" class="post-thumbnail" ><?php the_post_thumbnail(); ?></a>
+						<a  href="<?php the_permalink(); ?>" class="post-thumbnail" ><?php the_post_thumbnail( 'home' ); ?></a>
 
 						<footer class="entry-footer">
 							<span class="byline">

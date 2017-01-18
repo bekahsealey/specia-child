@@ -11,10 +11,13 @@
 			$portfolio_query = new WP_query('page_id='.get_theme_mod('portfolio-child-page'.$portfolio,true));
 			while( $portfolio_query->have_posts() ) 
 			{ 
+			
 				$portfolio_query->the_post();
 				$image = wp_get_attachment_url( get_post_thumbnail_id($post->ID));
 				$img_arr[] = $image;
 				$id_arr[] = $post->ID;
+			
+				
 			}    
 		}
 	}
@@ -29,6 +32,20 @@
 						$i=1;
 						foreach($id_arr as $id)
 						{ 
+							//echo '<pre>'; var_dump($post); echo '</pre>';
+							$template = get_page_template_slug( $id );
+							//echo '<pre>'; var_dump($template); echo '</pre>';
+
+							if ( $template == "templates/template-category-highlight.php") {
+								$cat = get_the_category( $id );
+								$cat = $cat[0]->cat_ID; 
+								$cat_query = new WP_Query( array( 'cat' => $cat, 'posts_per_page' => 1, 'orderby' => 'modified', 'order'   => 'DESC',) );
+								$id = $cat_query->post->ID;
+
+							} else {
+								$id == $id;
+							}
+
 							$title	= get_the_title( $id ); 
 							$post	= get_post($id);
 
