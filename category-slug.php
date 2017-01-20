@@ -11,21 +11,14 @@ get_template_part('sections/specia','breadcrumb'); ?>
 ?>
 <!-- Blog & Sidebar Section -->
 <section class="page-wrapper">
-	<?php if( is_active_sidebar( $parent_slug ) ) { ?>
 	<section class="cat-sidebar">
 		<div class="container">
-			<div class="row padding-top-60 padding-bottom-60">
-				<?php get_sidebar( $parent_slug ); ?>
-			</div>
+			<?php get_sidebar( $parent_slug ); ?>
 		</div>
 	</section>
-	<?php } ?>
-	<?php if ( !is_paged() ) { ?>
 	<section class="latest">
 		<div class="container">
 			<div class="row padding-top-60 padding-bottom-60">
-
-			<h3>The Latest in <?php echo $parent_term; ?></h3>
 			<?php 
 				$termchildren = get_term_children( $parent_id, 'category' );
 
@@ -60,7 +53,7 @@ get_template_part('sections/specia','breadcrumb'); ?>
 			</div>
 		</div> 
 	</section>
-	<?php } ?>
+
 	<div class="container">
 		<div class="row padding-top-60 padding-bottom-60">
 			<!--Blog Detail-->

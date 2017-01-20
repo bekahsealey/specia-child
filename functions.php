@@ -34,7 +34,7 @@ function specia_child_widgets_init() {
 	) );
 	register_sidebar( array(
 		'name' => __( 'Education Station Widget Area', 'specia' ),
-		'id' => 'specia_child_education_station_widget',
+		'id' => 'education-station',
 		'description' => __( 'The Education Station Widget Area', 'specia' ),
 		'before_widget' => '<div class="col-md-4 col-sm-4"><aside id="%1$s" class="widget">',
 		'after_widget' => '</aside></div>',
@@ -240,7 +240,7 @@ function modify_the_query( $query ) {
 }
 // Hook my above function to the pre_get_posts action
 add_action( 'pre_get_posts', 'modify_the_query' );
-add_filter( 'found_posts', 'socia_child_adjust_offset_pagination', 1, 2 );
+
 function socia_child_adjust_offset_pagination( $found_posts, $query ) {
 
 	// Define our offset again...
@@ -253,6 +253,8 @@ function socia_child_adjust_offset_pagination( $found_posts, $query ) {
 	}
 	return $found_posts;
 }
+add_filter( 'found_posts', 'socia_child_adjust_offset_pagination', 1, 2 );
+
 // Replaces the excerpt "Read More" text by a link
 function new_excerpt_more($more) {
        global $post; 

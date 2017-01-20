@@ -66,6 +66,11 @@
   -----------------------------------------*/
   /* --------------------------------------
   =========================================
+      Category slug template
+  =========================================
+  -----------------------------------------*/
+  /* --------------------------------------
+  =========================================
       Brand Typography
   =========================================
   -----------------------------------------*/
@@ -421,6 +426,8 @@
       width: 150px; }
   .constitution article.const_chairman {
     padding-bottom: 0px; }
+  .constitution .latest {
+    background-color: #DEDEDE; }
   .constitution h2, .constitution h2.entry-title a, .constitution h3, .constitution h4, .constitution h5, .constitution h6, .constitution .service-title a {
     font-family: Georgia, serif !important;
     text-transform: capitalize; }
