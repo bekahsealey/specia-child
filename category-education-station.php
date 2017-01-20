@@ -9,6 +9,7 @@ get_template_part('sections/specia','breadcrumb'); ?>
 
 		<?php get_sidebar( 'education' ); ?>
 		<?php 
+			$do_not_duplicate = $post->ID;
 			$parent = get_query_var('cat');
 			$termchildren = get_term_children( $parent, 'category' );
 
@@ -47,7 +48,8 @@ get_template_part('sections/specia','breadcrumb'); ?>
 			<div class="col-md-12 col-sm-12" >
 			<h3>More <?php echo get_the_category_by_ID($parent); ?></h3>
 					
-					<?php if( have_posts() ): ?>
+					<?php 
+			echo '<pre>'; var_dump($do_not_duplicate); echo '</pre>';if( have_posts() ): ?>
 					
 						<?php while( have_posts() ): the_post(); ?>
 							<?php if ($post->ID == $do_not_duplicate ) continue; ?>
