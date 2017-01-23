@@ -11,11 +11,11 @@ get_template_part('sections/specia','breadcrumb'); ?>
 ?>
 <!-- Blog & Sidebar Section -->
 <section class="page-wrapper">
-	<?php if( is_active_sidebar( $parent_slug ) ) { ?>
+	<?php if( is_active_sidebar( 'horizontal' ) ) { ?>
 	<section class="cat-sidebar">
 		<div class="container">
 			<div class="row padding-top-60 padding-bottom-60">
-				<?php get_sidebar( $parent_slug ); ?>
+				<?php get_sidebar( 'horizontal' ); ?>
 			</div>
 		</div>
 	</section>

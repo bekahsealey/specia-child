@@ -33,9 +33,9 @@ function specia_child_widgets_init() {
 		'after_title' => '</h3><div class="title-border"></div>',
 	) );
 	register_sidebar( array(
-		'name' => __( 'Education Station Widget Area', 'specia' ),
-		'id' => 'education-station',
-		'description' => __( 'The Education Station Widget Area', 'specia' ),
+		'name' => __( 'Horizontal Widget Area', 'specia' ),
+		'id' => 'horizontal',
+		'description' => __( 'Horizontal Widget Area', 'specia' ),
 		'before_widget' => '<div class="col-md-4 col-sm-4"><aside id="%1$s" class="widget">',
 		'after_widget' => '</aside></div>',
 		'before_title' => '<h3 class="widget-title">',
