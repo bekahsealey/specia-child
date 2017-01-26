@@ -43,11 +43,12 @@ function specia_child_widgets_init() {
 	) );
 }
 /*
- * Add category option to pages
+ * Add category and excerpt options to pages
  *
  */
 function specia_child_add_taxonomies_to_pages() {
- register_taxonomy_for_object_type( 'category', 'page' );
+	register_taxonomy_for_object_type( 'category', 'page' );
+	add_post_type_support( 'page', 'excerpt' );
  }
 add_action( 'init', 'specia_child_add_taxonomies_to_pages' );
 
@@ -234,6 +235,11 @@ function modify_the_query( $query ) {
 		$query->query_vars['orderby'] 			= 'meta_value_num';
 		$query->query_vars['order']				= 'ASC';
 		$query->query_vars['meta_key']			= 'order';
+		$query->query_vars['posts_per_page']	= -1;
+	
+	}
+	if ( $query->is_post_type_archive( 'const_faqs' ) ) {
+		$query->query_vars['order']				= 'ASC';
 		$query->query_vars['posts_per_page']	= -1;
 	
 	}
