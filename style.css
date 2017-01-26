@@ -550,7 +550,7 @@
     clear: left; }
   .constitution .latest .child-category:nth-child(5n+1) {
     clear: left; }
-  .constitution .more-category:nth-child(2n+1) {
+  .constitution .more-category:nth-child(3n+1) {
     clear: left; }
 
 :not(.home) footer.entry {
