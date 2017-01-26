@@ -545,7 +545,9 @@
     padding-bottom: 30px; }
   .constitution .horizontal > div:nth-child(4n+1) {
     clear: left; }
-  .constitution .latest .col-md-6.col-sm-12:nth-child(3n+1) {
+  .constitution .latest .child-category:nth-child(5n+1) {
+    clear: left; }
+  .constitution .more-category:nth-child(2n+1) {
     clear: left; }
 
 :not(.home) footer.entry {

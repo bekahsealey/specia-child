@@ -34,7 +34,7 @@ get_template_part('sections/specia','breadcrumb'); ?>
 					<?php $child_cat_name = get_the_category_by_ID( $child ); ?>
 
 					<?php $child_query = new WP_Query( array( 'cat' => $child, 'posts_per_page' => 1, 'order' => 'DESC' ) ); ?>
-					<div class="col-md-6 col-sm-12" >
+					<div class="child-category col-md-3 col-sm-12" >
 						
 					<h3><?php echo $child_cat_name ?></h3>
 
@@ -75,8 +75,9 @@ get_template_part('sections/specia','breadcrumb'); ?>
 							<?php if ( in_array($post->ID, $do_not_duplicate) ) {
 								    continue;
 								} ?>
+								<div class="more-category col-md-6 col-sm-12" >
 							<?php get_template_part('template-parts/content','excerpt'); ?>
-					
+								</div>
 						<?php endwhile; ?>
 						
 						<div class="paginations">
