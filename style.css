@@ -276,7 +276,8 @@
   .constitution .blog-version-1 footer.entry-footer {
     background: #182947; }
   .constitution .entry-content {
-    padding: 0 20px 30px; }
+    padding: 0 20px 30px;
+    overflow: hidden; }
   .constitution .entry-content .more-link {
     color: #182947;
     border: solid 2px #182947; }
@@ -419,6 +420,8 @@
     text-align: left; }
   .constitution .page-wrapper article {
     padding-bottom: 0; }
+  .constitution .search-form {
+    margin-bottom: 10px; }
   .constitution article.const_committee {
     padding-bottom: 30px; }
     .constitution article.const_committee .post-thumbnail {
