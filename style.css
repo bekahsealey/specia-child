@@ -86,7 +86,12 @@
   -----------------------------------------*/
   /* --------------------------------------
   =========================================
-      Education Station Widgets
+      Horizontal Widgets
+  =========================================
+  -----------------------------------------*/
+  /* --------------------------------------
+  =========================================
+      Education Station
   =========================================
   -----------------------------------------*/ }
   .constitution .specia-icon,
@@ -210,7 +215,7 @@
     .constitution .page-breadcrumb a:hover, .constitution .page-breadcrumb a:focus {
       color: #D5D5D5; }
     .constitution .page-breadcrumb a:active {
-      color: #FAFAFA; }
+      color: #F9F9F9; }
   .constitution .paginations a, .constitution span.page-numbers.current {
     border: solid 1px #D5D5D5; }
   .constitution .sidebar aside {
@@ -318,23 +323,23 @@
   .constitution a:hover, .constitution a:focus {
     color: #464646; }
   .constitution .page-wrapper {
-    background-color: #FAFAFA; }
+    background-color: #F9F9F9; }
   .constitution .page-wrapper article {
     border: solid 1px #AEADAD; }
   .constitution .navbar {
-    background: #FAFAFA;
+    background: #F9F9F9;
     border-color: #e9e9e9; }
   .constitution .nav-pills > li > a {
     background: #D5D5D5;
     text-transform: uppercase; }
   .constitution .nav-pills > li > a:hover,
   .constitution .nav-pills > li > a:focus {
-    background: #ededed;
+    background: #ececec;
     color: #464646; }
   .constitution .nav-justified > li {
     padding: 0 2px 8px; }
   .constitution .dropdown-menu {
-    background-color: #ededed; }
+    background-color: #ececec; }
   .constitution .dropdown-menu > li > a {
     text-transform: capitalize; }
   .constitution .more-link {
@@ -372,13 +377,13 @@
     max-height: 400px; }
   .constitution .call-to-action h2,
   .constitution .call-to-action h2 span {
-    color: #FAFAFA; }
+    color: #F9F9F9; }
   .constitution .call-to-action p {
     color: #DEDEDE; }
   .constitution .features-overlay p,
   .constitution .features-overlay li,
   .constitution .features-overlay span {
-    color: #FAFAFA; }
+    color: #F9F9F9; }
   .constitution .features-overlay h2,
   .constitution .features-overlay h3 {
     color: #AEADAD; }
@@ -389,7 +394,7 @@
   .constitution .top-scroll {
     color: #860918 !important; }
   .constitution .portfolio-version {
-    background: #FAFAFA; }
+    background: #F9F9F9; }
   .constitution .portfolio-version h2.section-heading,
   .constitution .portfolio-version h3 {
     color: #860918; }
@@ -400,7 +405,7 @@
     border-radius: 0px; }
   .constitution .page-breadcrumb li {
     display: inline-block;
-    color: #FAFAFA; }
+    color: #F9F9F9; }
   .constitution header .title-border {
     border-bottom: 2px solid #9e0b1c;
     width: 30px;
@@ -523,22 +528,24 @@
     color: #fff; }
   .constitution .contact-cta > a:hover {
     color: #182947; }
-  .constitution .education-sidebar aside {
-    border: solid 1px #f1f1f1;
+  .constitution .horizontal aside {
+    border: solid 1px #D5D5D5;
     padding: 15px 10px;
     -webkit-transition: all 300ms ease-out 0s;
     -moz-transition: all 300ms ease-out 0s;
     -o-transition: all 300ms ease-out 0s;
     transition: all 300ms ease-out 0s; }
-  .constitution .education-sidebar aside:hover {
+  .constitution .horizontal aside:hover {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     -webkit-transition: all 300ms ease-out 0s;
     -moz-transition: all 300ms ease-out 0s;
     -o-transition: all 300ms ease-out 0s;
     transition: all 300ms ease-out 0s; }
-  .constitution .education-sidebar > div {
+  .constitution .horizontal > div {
     padding-bottom: 30px; }
-  .constitution .education-sidebar > div:nth-child(3n+1) {
+  .constitution .horizontal > div:nth-child(4n+1) {
+    clear: left; }
+  .constitution .latest .col-md-6.col-sm-12:nth-child(3n+1) {
     clear: left; }
 
 :not(.home) footer.entry {

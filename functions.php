@@ -12,6 +12,7 @@ function specia_child_enqueue_styles() {
 add_image_size( 'home', 360, 240, true );
 add_image_size( 'portrait', 150, 180, true );
 add_image_size( 'excerpt', 1138, 300, true );
+add_image_size( 'half', 555, 320, true );
 
 function remove_some_widgets(){
 
