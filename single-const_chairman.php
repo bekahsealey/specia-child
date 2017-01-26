@@ -4,6 +4,10 @@ get_template_part('sections/specia','breadcrumb'); ?>
 
 <!-- Blog & Sidebar Section -->
 <section class="page-wrapper">
+	<header>
+		        <h3>Message From The Chairman</h3>
+	</header>
+
 	<div class="container">
 		<div class="row padding-top-60 padding-bottom-60">
 			
