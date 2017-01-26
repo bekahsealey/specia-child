@@ -207,6 +207,10 @@
     color: #425472; }
     .constitution .page-breadcrumb a {
       color: #AEADAD; }
+    .constitution .page-breadcrumb a:hover, .constitution .page-breadcrumb a:focus {
+      color: #D5D5D5; }
+    .constitution .page-breadcrumb a:active {
+      color: #FAFAFA; }
   .constitution .paginations a, .constitution span.page-numbers.current {
     border: solid 1px #D5D5D5; }
   .constitution .sidebar aside {

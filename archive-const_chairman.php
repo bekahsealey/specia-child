@@ -3,14 +3,19 @@ get_header();
 get_template_part('sections/specia','breadcrumb'); ?>
 <!-- Blog & Sidebar Section -->
 <section class="page-wrapper">
-	<header>
-		        <h3>Message From The Chairman</h3>
-	</header>
+
 	<div class="container">
 		<div class="row padding-top-60 padding-bottom-60">
 			
 			<!--Blog Detail-->
 			<div class="col-md-12 col-sm-12">
+
+				<header>
+
+			        <h2 class="page-title">Message From the Chairman</h2>
+		        	<div class="title-border"></div>
+
+			    </header><!-- .entry-header -->
 					<?php $counter = 0; ?>
 					<?php if( have_posts() ): ?>
 					
