@@ -42,11 +42,6 @@
 
     <?php if( $hide_show_blog_meta == 'on' ): ?>
     <footer class="entry-footer">
-        <span class="byline">
-            <span class="author vcard">
-                <a class="url fn n" href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) );?>"><i class="fa fa-user"></i>  <?php the_author(); ?></a>
-            </span>
-        </span>
 
         <?php   $cat_list = get_the_category_list();
             if(!empty($cat_list)) { ?>
