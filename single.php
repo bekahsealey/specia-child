@@ -8,23 +8,17 @@ get_template_part('sections/specia','breadcrumb'); ?>
 		<div class="row padding-top-60 padding-bottom-60">
 			
 			<!--Blog Detail-->
-			<div class="col-md-12 col-sm-12">
+			<div class="<?php specia_post_column(); ?>" >
 					
 					<?php if( have_posts() ): ?>
 					
 						<?php while( have_posts() ): the_post(); ?>
 						
 							<?php get_template_part('template-parts/content','page'); ?>
-					
-
-						<div class="navigation">
-							<?php if( is_singular('const_faqs') ) { ?>
-								<div class="post-nav">
-								<div class="alignleft prev-next-post-nav"><?php previous_post_link( '%link', '&laquo;Older' ) ?></div>
-								<div class="alignright prev-next-post-nav"><?php next_post_link( '%link', 'Newer&raquo;' ) ?></div>
-								</div><?php } ?>
-							<div class="clearfix"></div>
+						<div class="navigation"><p><span class="pull-left"><?php previous_post_link(); ?></span><span class="pull-right"><?php next_post_link(); ?></span></p>
+						<div class="clearfix"></div>
 						</div>
+					
 						<?php endwhile; ?>
 						
 						<?php comments_template( '', true ); // show comments  ?>
@@ -37,11 +31,12 @@ get_template_part('sections/specia','breadcrumb'); ?>
 			
 			</div>
 			<!--/End of Blog Detail-->
+
+				<?php get_sidebar(); ?>
 		</div>	
 	</div>
 </section>
 <!-- End of Blog & Sidebar Section -->
-<div class="navigation"><p><?php posts_nav_link(); ?></p></div>
 <div class="clearfix"></div>
 
 <?php get_footer(); ?>

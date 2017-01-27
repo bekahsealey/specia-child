@@ -23,6 +23,15 @@ get_template_part('sections/specia','breadcrumb'); ?>
 						<?php while( have_posts() ): the_post(); ?>
 						
 							<?php get_template_part('template-parts/content','page'); ?>
+
+						<div class="navigation">
+							<?php if( is_singular('const_chairman') ) { ?>
+								<div class="post-nav">
+								<div class="alignleft prev-next-post-nav"><?php previous_post_link( '%link', '&laquo;Older' ) ?></div>
+								<div class="alignright prev-next-post-nav"><?php next_post_link( '%link', 'Newer&raquo;' ) ?></div>
+								</div><?php } ?>
+							<div class="clearfix"></div>
+						</div>
 					
 						<?php endwhile; ?>
 						
