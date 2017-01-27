@@ -8,6 +8,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-5">
+            	<?php my_subscribe_button(); ?>
                 <!-- Start Social Media Icons -->
 				<?php 
 					$hide_show_social= get_theme_mod('hide_show_social','off'); 
