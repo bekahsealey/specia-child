@@ -23,7 +23,7 @@ get_template_part('sections/specia','breadcrumb'); ?>
 				else
 				{ 
 				
-					echo '<div class="col-md-'.( !is_active_sidebar( "sidebar-primary" ) ?"12" :"8" ).'">';
+					echo '<div class="col-md-12 col-sm-12">';
 					
 					
 				} 
@@ -37,6 +37,7 @@ get_template_part('sections/specia','breadcrumb'); ?>
 		        <?php the_title('<h2 class="page-title">', '</h2>' ); ?> 
 		        <div class="title-border"></div>
 		    </header>
+		    	<?php the_post_thumbnail( 'large', array( 'class' => 'aligncenter' ) ); ?>
 
 				<?php
 				the_content(); 
@@ -65,12 +66,6 @@ get_template_part('sections/specia','breadcrumb'); ?>
 						}
 						
 					}
-				else
-					{ 
-					
-						get_sidebar(); 
-						
-					} 
 			?>
 			
 						

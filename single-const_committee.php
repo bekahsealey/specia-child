@@ -41,8 +41,6 @@ get_template_part('sections/specia','breadcrumb'); ?>
 	</div>
 </section>
 <!-- End of Blog & Sidebar Section -->
-<div class="navigation"><p><?php posts_nav_link('&#8734;','Go 
-Forward In Time','Go Back in Time'); ?></p></div>
 <div class="clearfix"></div>
 
 <?php get_footer(); ?>

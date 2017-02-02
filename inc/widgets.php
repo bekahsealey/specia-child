@@ -13,8 +13,8 @@ function specia_child_widgets_init() {
 		'name' => __( 'Features Widget Area', 'specia' ),
 		'id' => 'specia_child_feature_widget',
 		'description' => __( 'The Features Widget Area for Home Features', 'specia' ),
-		'before_widget' => '<div class="col-md-4 col-sm-4"><aside id="%1$s" class="widget">',
-		'after_widget' => '</aside></div>',
+		'before_widget' => '<aside id="%1$s" class="widget">',
+		'after_widget' => '</aside>',
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3><div class="title-border"></div>',
 	) );

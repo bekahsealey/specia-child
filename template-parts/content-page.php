@@ -46,13 +46,13 @@
         <?php   $cat_list = get_the_category_list();
             if(!empty($cat_list)) { ?>
         <span class="cat-links">
-            <a href="<?php the_permalink(); ?>"><i class="fa fa-folder-open"></i><?php the_category(','); ?></a>
+            <i class="fa fa-folder-open"></i><?php the_category(','); ?>
         </span>
         <?php } ?>
 
         <?php if( get_the_tags() ) { ?>
         <span class="tags-links">
-            <a href="<?php the_permalink(); ?>"><i class="fa fa-tags"></i> <?php the_tags('', ', ', ''); ?></a>
+            <i class="fa fa-tags"></i> <?php the_tags('', ', ', ''); ?>
         </span>
         <?php } ?>
 

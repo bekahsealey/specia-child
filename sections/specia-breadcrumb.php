@@ -8,9 +8,7 @@
         <div class="container">
             <div class="row padding-top-10 padding-bottom-10">
                <div class="col-md-6 col-xs-12 col-sm-6 breadcrumb-position">
-					<ul class="page-breadcrumb">
-						<?php if (function_exists('specia_breadcrumbs')) specia_breadcrumbs();?>
-                    </ul>
+						<?php if (function_exists('the_breadcrumb')) the_breadcrumb();?>
                 </div>
 
                 <div class="col-md-6 col-xs-12 col-sm-6">

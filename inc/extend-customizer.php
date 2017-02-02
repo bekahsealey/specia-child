@@ -230,4 +230,92 @@ function specia_child_customizer_options( $wp_customize ) {
 			'settings'  => 'portfolio-child-page3',
 		)
 	);	
+
+	/*=========================================
+	Footer Links Section
+	=========================================*/
+	// Link 1 Label // 
+	$wp_customize->add_setting(
+    	'label1_content',
+    	array(
+	        'default'			=> '',
+			'capability'     	=> 'edit_theme_options',
+			'sanitize_callback' => 'specia_sanitize_html',
+		)
+	);	
+
+	$wp_customize->add_control( 
+		'label1_content',
+		array(
+        	'priority'      => 50,
+		    'label'   		=> __('First Link Text','specia'),
+		    'section'		=> 'footer_copyright',
+			'settings'   	 => 'label1_content',
+			'type' 			=> 'text',
+			'description'   => __( 'Enter the text for Footer Link 1', 'specia' ),
+		)  
+	);
+	// Link 1 Link // 
+	$wp_customize->add_setting(
+    	'label1_link',
+    	array(
+	        'default'			=> '',
+			'capability'     	=> 'edit_theme_options',
+			'sanitize_callback' => 'specia_sanitize_url',
+		)
+	);	
+	
+	$wp_customize->add_control( 
+		'label1_link',
+		array(
+        	'priority'      => 50,
+		    'label'   => __('First Link URL','specia'),
+		    'section' => 'footer_copyright',
+			'settings'       => 'label1_link',
+			'description'    => __( 'Enter the Link URL for Link 1', 'specia' ),
+			'type'           => 'text',
+		)  
+	);
+	// Link 2 Label // 
+	$wp_customize->add_setting(
+    	'label2_content',
+    	array(
+	        'default'			=> '',
+			'capability'     	=> 'edit_theme_options',
+			'sanitize_callback' => 'specia_sanitize_html',
+		)
+	);	
+
+	$wp_customize->add_control( 
+		'label2_content',
+		array(
+        	'priority'      => 55,
+		    'label'   		=> __('Second Link Text','specia'),
+		    'section'		=> 'footer_copyright',
+			'settings'   	 => 'label2_content',
+			'type' 			=> 'text',
+			'description'   => __( 'Enter the text for Footer Link 2', 'specia' ),
+		)  
+	);
+	// Link 2 Link // 
+	$wp_customize->add_setting(
+    	'label2_link',
+    	array(
+	        'default'			=> '',
+			'capability'     	=> 'edit_theme_options',
+			'sanitize_callback' => 'specia_sanitize_url',
+		)
+	);	
+	
+	$wp_customize->add_control( 
+		'label2_link',
+		array(
+        	'priority'      => 55,
+		    'label'   => __('Second Link URL','specia'),
+		    'section' => 'footer_copyright',
+			'settings'       => 'label2_link',
+			'description'    => __( 'Enter the Link URL for Link 2', 'specia' ),
+			'type'           => 'text',
+		)  
+	);
 }

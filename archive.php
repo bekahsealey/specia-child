@@ -1,17 +1,7 @@
 <?php
-/**
-Template Name: Highlight Category Post (make sure only a single category is set on this page)
-**/
 get_header();
 get_template_part('sections/specia','breadcrumb'); ?>
-<?php 
-	$hilite_page = get_the_ID();
-	$cat = get_the_category();
-	$cat = $cat[0]->cat_ID; 
-	$cat_query = new WP_Query( array( 'cat' => $cat, 'posts_per_page' => 1, 'orderby' => 'modified', 'order'   => 'DESC',) );
-	$cat_thumb = get_post_thumbnail_id($cat_query->ID);
 
-?>
 <!-- Blog & Sidebar Section -->
 <section class="page-wrapper">
 	<div class="container">
@@ -20,15 +10,22 @@ get_template_part('sections/specia','breadcrumb'); ?>
 			<!--Blog Detail-->
 			<div class="<?php specia_post_column(); ?>" >
 					
-					<?php if( $cat_query->have_posts() ): ?>
+					<?php if( have_posts() ): ?>
 					
-						<?php while( $cat_query->have_posts() ): $cat_query->the_post(); ?>
+						<?php while( have_posts() ): the_post(); ?>
 						
 							<?php get_template_part('template-parts/content','page'); ?>
 					
 						<?php endwhile; ?>
 						
-						<?php comments_template( '', true ); // show comments  ?>
+						<div class="paginations">
+						<?php						
+						// Previous/next page navigation.
+						the_posts_pagination( array(
+						'prev_text'          => '<i class="fa fa-angle-double-left"></i>',
+						'next_text'          => '<i class="fa fa-angle-double-right"></i>',
+						) ); ?>
+						</div>
 						
 					<?php else: ?>
 						
@@ -39,12 +36,14 @@ get_template_part('sections/specia','breadcrumb'); ?>
 			</div>
 			<!--/End of Blog Detail-->
 
+			
 				<?php get_sidebar(); ?>
+		
 		</div>	
 	</div>
 </section>
 <!-- End of Blog & Sidebar Section -->
+ 
+<div class="clearfix"></div>
 
 <?php get_footer(); ?>
-
-

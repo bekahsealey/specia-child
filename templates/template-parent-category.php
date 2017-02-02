@@ -18,7 +18,7 @@ get_template_part('sections/specia','breadcrumb'); ?>
 	<?php if( is_active_sidebar( 'horizontal' ) ) { ?>
 	<section class="cat-sidebar">
 		<div class="container">
-			<div class="row padding-top-60 padding-bottom-60">
+			<div class="row padding-top-30">
 				<?php get_sidebar( 'horizontal' ); ?>
 			</div>
 		</div>
@@ -32,15 +32,24 @@ get_template_part('sections/specia','breadcrumb'); ?>
 			<h3>The Latest in <?php echo $parent_term; ?></h3>
 			<?php 
 				$termchildren = get_term_children( $parent_id, 'category' );
+				$count = count($termchildren);
+				$col = '';
+				if($count % 4 == 0) {
+					$col = 'col-md-3';
+				} elseif ($count % 2 == 0) {
+					$col = 'col-md-6';
+				} else {
+					$col = 'col-md-4';
+				}
 
 				foreach( $termchildren as $child ) { ?>
 
 					<?php $child_cat_name = get_the_category_by_ID( $child ); ?>
 
-					<?php $child_query = new WP_Query( array( 'cat' => $child, 'posts_per_page' => 1, 'order' => 'DESC' ) ); ?>
-					<div class="child-category col-md-3 col-sm-12" >
+					<?php $child_query = new WP_Query( array( 'cat' => $child, 'posts_per_page' => 1,'post_status' => 'publish', 'order' => 'DESC' ) ); ?>
+					<div class="child-category <?php echo $col; ?> col-sm-12" >
 						
-					<h3><?php echo $child_cat_name ?></h3>
+					<h3><a href="<?php echo get_category_link( $child); ?>"><?php echo $child_cat_name; ?></a></h3>
 
 						<?php if( $child_query->have_posts() ): ?>
 						
@@ -48,7 +57,8 @@ get_template_part('sections/specia','breadcrumb'); ?>
 								<?php $do_not_duplicate[] .= $post->ID; ?>
 
 								<?php get_template_part('template-parts/content','excerpt'); ?>
-						
+								<a class="more-link" href="<?php echo get_category_link( $child); ?>">More in <?php echo $child_cat_name; ?></a>
+
 							<?php endwhile; ?>
 							
 						<?php else: ?>
@@ -62,6 +72,8 @@ get_template_part('sections/specia','breadcrumb'); ?>
 
 			 <?php wp_reset_postdata(); ?>
 			</div>
+		<h3>Recommended Reading</h3>
+	<?php echo do_shortcode('[print_responsive_thumbnail_slider]'); ?>
 		</div> 
 	</section>
 	<?php } ?>

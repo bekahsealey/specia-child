@@ -101,9 +101,27 @@
   -----------------------------------------*/
   /* --------------------------------------
   =========================================
-      Education Station
+      Parent Category Template
+  =========================================
+  -----------------------------------------*/
+  /* --------------------------------------
+  =========================================
+      State Parties Page
+  =========================================
+  -----------------------------------------*/
+  /* --------------------------------------
+  =========================================
+      Candidates Page
+  =========================================
+  -----------------------------------------*/
+  /* --------------------------------------
+  =========================================
+      Media Queries
   =========================================
   -----------------------------------------*/ }
+  .constitution .nav-justified > .dropdown .dropdown-menu .dropdown-menu {
+    top: 0;
+    left: auto; }
   .constitution .specia-icon,
   .constitution .header-top-info-1 .social li a i:hover {
     background-color: #860918; }
@@ -176,7 +194,8 @@
     color: #860918; }
   .constitution .blog-version-1 article:hover footer.entry-footer {
     background: #860918; }
-  .constitution .entry-content .more-link:hover {
+  .constitution .entry-content .more-link:hover,
+  .constitution .child-category .more-link:hover {
     background: #860918;
     border: solid 2px #860918; }
   .constitution .footer-sidebar .widget .title-border {
@@ -219,7 +238,8 @@
     background: #860918;
     border: solid 2px #860918; }
   .constitution .page-breadcrumb {
-    color: #425472; }
+    color: #425472;
+    text-align: left; }
     .constitution .page-breadcrumb a {
       color: #AEADAD; }
     .constitution .page-breadcrumb a:hover, .constitution .page-breadcrumb a:focus {
@@ -288,9 +308,20 @@
   .constitution .entry-content {
     padding: 0 20px 30px;
     overflow: hidden; }
-  .constitution .entry-content .more-link {
+  .constitution .entry-content .more-link,
+  .constitution .child-category .more-link {
     color: #182947;
-    border: solid 2px #182947; }
+    border: solid 2px #182947;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: transparent;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out; }
+  .constitution .entry-content .more-link {
+    float: right; }
   .constitution .footer-sidebar .widget table caption, .constitution .woo-sidebar .widget table caption {
     background: #182947; }
   .constitution .footer-sidebar .background-overlay {
@@ -330,9 +361,9 @@
   .constitution ins {
     color: #182947; }
   .constitution a {
-    color: #040F23; }
+    color: #1D5AA8; }
   .constitution a:hover, .constitution a:focus {
-    color: #464646; }
+    color: #182947; }
   .constitution .page-wrapper {
     background-color: #F9F9F9; }
   .constitution .page-wrapper article {
@@ -373,35 +404,66 @@
   .constitution .service-version-one {
     background: #DEDEDE; }
   .constitution .slider-version-one .caption {
-    max-height: 300px;
-    overflow: hidden; }
-  .constitution .slider-version-one .caption h1 a {
-    color: #860918; }
-  .constitution .slider-version-one .caption h1 a:hover,
-  .constitution .slider-version-one .caption h1 a:focus,
-  .constitution .slider-version-one .caption h1,
-  .constitution .slider-version-one .caption p {
-    color: #333333; }
-  .constitution .slider-version-one .caption h1 a {
-    color: #860918; }
-  .constitution .owl-carousel .owl-item {
-    max-height: 400px; }
+    font-weight: bold; }
+    .constitution .slider-version-one .caption h1 {
+      color: #182947;
+      text-align: center; }
+    .constitution .slider-version-one .caption h1 a {
+      color: #860918; }
+    .constitution .slider-version-one .caption h1 a:hover,
+    .constitution .slider-version-one .caption h1 a:focus,
+    .constitution .slider-version-one .caption p {
+      color: #333333; }
+    .constitution .slider-version-one .caption h1 a {
+      color: #860918; }
+    .constitution .slider-version-one .caption .tagline {
+      font-style: italic;
+      color: #860918;
+      text-align: center;
+      font-family: Georgia, serif; }
+  .constitution .owl-carousel .owl-item img {
+    opacity: .8; }
+  .constitution .specia-btn-1 {
+    padding: 8px 16px;
+    border: solid 1px #1D5AA8;
+    text-transform: uppercase; }
   .constitution .call-to-action h2,
   .constitution .call-to-action h2 span {
     color: #F9F9F9; }
   .constitution .call-to-action p {
     color: #DEDEDE; }
-  .constitution .features-overlay p,
-  .constitution .features-overlay li,
-  .constitution .features-overlay span {
-    color: #F9F9F9; }
-  .constitution .features-overlay h2,
-  .constitution .features-overlay h3 {
-    color: #AEADAD; }
-  .constitution .features-overlay a {
-    color: #658FC5; }
-  .constitution .features-overlay a:hover {
-    color: #1D5AA8; }
+  .constitution .features-version-one .textwidget {
+    color: #D5D5D5; }
+  .constitution .features-version-one .features-overlay {
+    /* one item */
+    /* two items */
+    /* three items */
+    /* four items */ }
+    .constitution .features-version-one .features-overlay p, .constitution .features-version-one .features-overlay li, .constitution .features-version-one .features-overlay span {
+      color: #F9F9F9; }
+    .constitution .features-version-one .features-overlay h2, .constitution .features-version-one .features-overlay h3 {
+      color: #AEADAD; }
+    .constitution .features-version-one .features-overlay a {
+      color: #658FC5; }
+    .constitution .features-version-one .features-overlay a:hover {
+      color: #1D5AA8; }
+    .constitution .features-version-one .features-overlay .widget {
+      float: left;
+      padding: 0 20px; }
+    .constitution .features-version-one .features-overlay .widget:nth-child(1):nth-last-child(1) {
+      width: 100%; }
+    .constitution .features-version-one .features-overlay .widget:nth-child(1):nth-last-child(2),
+    .constitution .features-version-one .features-overlay .widget:nth-child(2):nth-last-child(1) {
+      width: 50%; }
+    .constitution .features-version-one .features-overlay .widget:nth-child(1):nth-last-child(3),
+    .constitution .features-version-one .features-overlay .widget:nth-child(2):nth-last-child(2),
+    .constitution .features-version-one .features-overlay .widget:nth-child(3):nth-last-child(1) {
+      width: 33.3333%; }
+    .constitution .features-version-one .features-overlay .widget:nth-child(1):nth-last-child(4),
+    .constitution .features-version-one .features-overlay .widget:nth-child(2):nth-last-child(3),
+    .constitution .features-version-one .features-overlay .widget:nth-child(3):nth-last-child(2),
+    .constitution .features-version-one .features-overlay .widget:nth-child(4):nth-last-child(1) {
+      width: 25%; }
   .constitution .top-scroll {
     color: #860918 !important; }
   .constitution .portfolio-version {
@@ -409,6 +471,8 @@
   .constitution .portfolio-version h2.section-heading,
   .constitution .portfolio-version h3 {
     color: #860918; }
+  .constitution figure.effect-sadie:hover figcaption::before, .constitution figure.effect-sadie:hover p {
+    padding-top: 20px; }
   .constitution .footer-copyright, .constitution .footer-copyright p, .constitution .footer-copyright p a {
     background: #091830; }
   .constitution .breadcrumb {
@@ -429,11 +493,15 @@
   .constitution .breadcrumb-position {
     text-align: left; }
   .constitution .page-wrapper article {
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    overflow: hidden; }
   .constitution .search-form {
     margin-bottom: 10px; }
+  .constitution .alignleft.wp-post-image {
+    margin: 20px; }
   .constitution article.const_committee {
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    overflow: hidden; }
     .constitution article.const_committee .post-thumbnail {
       float: left;
       padding: 8px 12px 8px 8px; }
@@ -479,45 +547,6 @@
     float: none; }
   .constitution .navbar .nav {
     margin-top: 3rem; }
-  @media (max-width: 768px) {
-    .constitution .custom-logo {
-      width: 150px;
-      margin: auto; }
-    .constitution .custom-logo-link {
-      float: none;
-      margin-right: 0px;
-      margin: auto;
-      width: 100%;
-      display: block; }
-    .constitution .title {
-      float: none;
-      width: 98%;
-      margin: auto; }
-      .constitution .title .playfairSC {
-        font-size: 32px;
-        text-align: center;
-        line-height: 1.5; }
-      .constitution .title .site-description {
-        font-size: 26px;
-        line-height: 1.4;
-        margin-top: 20px; } }
-  @media (min-width: 768px) {
-    .constitution .service-title a {
-      font-size: 2.2rem; }
-    .constitution .grid figure h2 {
-      font-size: 2.8rem;
-      text-shadow: 0 1px 3px #000; }
-    .constitution p {
-      font-size: 1.6rem; }
-    .constitution .grid figure img {
-      filter: blur(0.2px); } }
-  @media (min-width: 1400px) {
-    .constitution .title {
-      float: left; }
-      .constitution .title .playfairSC {
-        font-size: 76px; }
-      .constitution .title .site-description {
-        font-size: 26px; } }
   .constitution .header-top-info-1 ul.social-icons-lists {
     margin: 0 0 6px; }
   .constitution .header-top-info-1 .social-icons-lists.social-icons-greyscale.icons-background-square {
@@ -556,16 +585,14 @@
     list-style: none; }
   .constitution .subscribe-img a {
     display: block;
-    width: 100px;
     height: 25px;
     background: url(http://www.constitutionparty.com/assets/Subscribe-e1452011004551.png) no-repeat;
-    color: transparent; }
+    padding-left: 110px; }
   .constitution .donate-img a {
     display: block;
-    width: 100px;
     height: 25px;
     background: url(http://www.constitutionparty.com/assets/Donate-e1452011575968.png) no-repeat;
-    color: transparent; }
+    padding-left: 110px; }
   .constitution .nav-pills .contact-cta > a {
     background-color: #1D5AA8;
     color: #fff; }
@@ -586,12 +613,112 @@
     transition: all 300ms ease-out 0s; }
   .constitution .horizontal > div {
     padding-bottom: 30px; }
-  .constitution .horizontal > div:nth-child(4n+1) {
+  .constitution .horizontal > div:nth-of-type(3n+1) {
     clear: left; }
-  .constitution .latest .child-category:nth-child(5n+1) {
+  .constitution .more-category:nth-of-type(2n+1) {
     clear: left; }
-  .constitution .more-category:nth-child(3n+1) {
-    clear: left; }
+  .constitution .aligncenter {
+    margin: .5em auto; }
+  .constitution #stateInfo div {
+    background: #d4d4d4;
+    z-index: 10000;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    box-shadow: 0 2px 8px #999; }
+  .constitution #map {
+    right: 0px;
+    margin: auto; }
+  .constitution .state-chair {
+    padding: 20px; }
+  .constitution .candidate-race, .constitution .candidate-loc {
+    margin-bottom: 10px; }
+  @media (max-width: 768px) {
+    .constitution .custom-logo {
+      width: 150px;
+      margin: auto; }
+    .constitution .custom-logo-link {
+      float: none;
+      margin-right: 0px;
+      margin: auto;
+      width: 100%;
+      display: block; }
+    .constitution .title {
+      float: none;
+      width: 98%;
+      margin: auto; }
+      .constitution .title .playfairSC {
+        font-size: 32px;
+        text-align: center;
+        line-height: 1.5; }
+      .constitution .title .site-description {
+        font-size: 26px;
+        line-height: 1.4;
+        margin-top: 20px; }
+    .constitution .slider-version-one .caption {
+      margin: auto;
+      width: 90%; }
+    .constitution .no-mobile {
+      display: none; }
+    .constitution header.entry-header {
+      padding: 14px 0; }
+    .constitution .alignleft.wp-post-image {
+      margin: 10px 0px 10px 10px; }
+    .constitution .entry-content {
+      padding: 0 10px 30px;
+      overflow: hidden; }
+    .constitution .col-xs-1, .constitution .col-sm-1, .constitution .col-md-1, .constitution .col-lg-1, .constitution .col-xs-2, .constitution .col-sm-2, .constitution .col-md-2, .constitution .col-lg-2, .constitution .col-xs-3, .constitution .col-sm-3, .constitution .col-md-3, .constitution .col-lg-3, .constitution .col-xs-4, .constitution .col-sm-4, .constitution .col-md-4, .constitution .col-lg-4, .constitution .col-xs-5, .constitution .col-sm-5, .constitution .col-md-5, .constitution .col-lg-5, .constitution .col-xs-6, .constitution .col-sm-6, .constitution .col-md-6, .constitution .col-lg-6, .constitution .col-xs-7, .constitution .col-sm-7, .constitution .col-md-7, .constitution .col-lg-7, .constitution .col-xs-8, .constitution .col-sm-8, .constitution .col-md-8, .constitution .col-lg-8, .constitution .col-xs-9, .constitution .col-sm-9, .constitution .col-md-9, .constitution .col-lg-9, .constitution .col-xs-10, .constitution .col-sm-10, .constitution .col-md-10, .constitution .col-lg-10, .constitution .col-xs-11, .constitution .col-sm-11, .constitution .col-md-11, .constitution .col-lg-11, .constitution .col-xs-12, .constitution .col-sm-12, .constitution .col-md-12, .constitution .col-lg-12 {
+      padding-right: 10px;
+      padding-left: 10px; }
+    .constitution h2.entry-title, .constitution h2.entry-title a {
+      font-size: 1.8rem; }
+    .constitution .child-category {
+      margin-bottom: 60px; } }
+  @media (min-width: 768px) {
+    .constitution .service-title a {
+      font-size: 2.2rem; }
+    .constitution .grid figure h2 {
+      font-size: 2.8rem;
+      text-shadow: 0 1px 3px #000; }
+    .constitution p {
+      font-size: 1.6rem; }
+    .constitution .grid figure img {
+      filter: blur(0.2px);
+      max-height: 250px; }
+    .constitution .owl-item {
+      max-height: 400px; }
+    .constitution .slider-version-one .caption {
+      max-height: 300px;
+      overflow: hidden; }
+      .constitution .slider-version-one .caption h1 {
+        line-height: 48px;
+        font-size: 45px; }
+      .constitution .slider-version-one .caption p {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: justify;
+        margin-bottom: 10px; }
+      .constitution .slider-version-one .caption .tagline {
+        font-size: 24px;
+        font-family: Georgia, serif; } }
+  @media (min-width: 1400px) {
+    .constitution .title {
+      float: left; }
+      .constitution .title .playfairSC {
+        font-size: 76px; }
+      .constitution .title .site-description {
+        font-size: 26px; } }
+
+/* end constitution class */
+/* --------------------------------------
+=========================================
+    Donate Page
+=========================================
+-----------------------------------------*/
+.page-id-125.constitution h5 {
+  margin-top: 40px; }
 
 :not(.home) footer.entry {
   margin-top: 43px; }

@@ -5,7 +5,7 @@
 
 			<!-- Mobile Display -->
 			<div class="navbar-header">
-				<a class="navbar-brand" href="<?php echo home_url( '/' ); ?>" class="brand">
+				
 					<?php
 						if(has_custom_logo())
 						{	
@@ -25,10 +25,7 @@
 							<p class="site-description"><?php echo $description; ?></p>
 					<?php endif; ?>
 
-					</div>
-					
-				</a>
-				
+					</div>				
 				
 				
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">

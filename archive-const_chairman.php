@@ -57,6 +57,7 @@ get_template_part('sections/specia','breadcrumb'); ?>
 						    				) 
 						    			);
 						            } else {
+						            	
 						                the_excerpt();
 						            }
 								?>
