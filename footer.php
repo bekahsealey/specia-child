@@ -87,5 +87,6 @@
 <a href="#" class="top-scroll"><i class="dashicons dashicons-arrow-up-alt2"></i></a> 
 </div>
 <?php wp_footer(); ?>
+</div>
 </body>
 </html>
