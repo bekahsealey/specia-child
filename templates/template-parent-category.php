@@ -72,8 +72,12 @@ get_template_part('sections/specia','breadcrumb'); ?>
 
 			 <?php wp_reset_postdata(); ?>
 			</div>
+
+		<?php if ($parent_slug === 'education-station') { ?> 
 		<h3>Recommended Reading</h3>
-	<?php echo do_shortcode('[print_responsive_thumbnail_slider]'); ?>
+			<?php echo do_shortcode('[print_responsive_thumbnail_slider]'); ?>
+		<?php } ?>
+
 		</div> 
 	</section>
 	<?php } ?>
