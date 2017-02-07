@@ -499,6 +499,11 @@
     margin-bottom: 10px; }
   .constitution .alignleft.wp-post-image {
     margin: 20px; }
+  .constitution .footer-sidebar .widget ul li::before {
+    content: "\00bb";
+    font-family: inherit;
+    font-size: 14px;
+    margin-right: 5px; }
   .constitution article.const_committee {
     padding-bottom: 30px;
     overflow: hidden; }
@@ -566,6 +571,10 @@
     background-color: #860918; }
   .constitution .header-top-info-1 .info li {
     line-height: 14px; }
+  .constitution .header-top-info-1 .info li i.dashicons {
+    margin-right: 0; }
+  .constitution .dashicons, .constitution .dashicons-before::before {
+    font-size: 16px; }
   .constitution .header-top-info-1 .call-btn-1 {
     background: #860918;
     color: #ffffff;
@@ -615,6 +624,10 @@
     padding-bottom: 30px; }
   .constitution .horizontal > div:nth-of-type(3n+1) {
     clear: left; }
+  .constitution .horizontal figure {
+    width: 100% !important; }
+  .constitution .horizontal figure.aligncenter img {
+    margin: auto; }
   .constitution .more-category:nth-of-type(2n+1) {
     clear: left; }
   .constitution .aligncenter {
@@ -659,7 +672,14 @@
         margin-top: 20px; }
     .constitution .slider-version-one .caption {
       margin: auto;
-      width: 90%; }
+      width: 90%;
+      font-weight: bold; }
+      .constitution .slider-version-one .caption h1 {
+        font-weight: 700;
+        font-size: 18px; }
+      .constitution .slider-version-one .caption p.wow.fadeInDown,
+      .constitution .slider-version-one .caption p.tagline {
+        margin: 0 0 5px; }
     .constitution .no-mobile {
       display: none; }
     .constitution header.entry-header {
@@ -691,18 +711,22 @@
       max-height: 400px; }
     .constitution .slider-version-one .caption {
       max-height: 300px;
-      overflow: hidden; }
+      overflow: hidden;
+      width: 90%; }
       .constitution .slider-version-one .caption h1 {
-        line-height: 48px;
-        font-size: 45px; }
+        line-height: 42px;
+        font-size: 36px; }
       .constitution .slider-version-one .caption p {
         font-size: 18px;
         font-weight: bold;
         text-align: justify;
-        margin-bottom: 10px; }
+        margin: 0 0 12px; }
       .constitution .slider-version-one .caption .tagline {
-        font-size: 24px;
+        font-size: 20px;
         font-family: Georgia, serif; } }
+  @media (min-width: 1024px) {
+    .constitution .slider-version-one .caption {
+      width: 70%; } }
   @media (min-width: 1400px) {
     .constitution .title {
       float: left; }

@@ -77,8 +77,8 @@ function socia_child_adjust_offset_pagination( $found_posts, $query ) {
 	// Ensure we're modifying the right query object...
 	if ( $query->is_post_type_archive( 'const_chairman' ) && !$query->is_paged ) {
 		// Reduce WordPress's found_posts count by the offset...
-		$found_posts = $found_posts/$ppp;
-		return $found_posts - $offset;
+		$found_posts = ($found_posts-$offset)/$ppp;
+		return $found_posts;
 	} else {
 	return $found_posts;
 	}

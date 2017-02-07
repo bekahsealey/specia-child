@@ -7,11 +7,11 @@
     <div class="background-overlay">
         <div class="container">
             <div class="row padding-top-10 padding-bottom-10">
-               <div class="col-md-6 col-xs-12 col-sm-6 breadcrumb-position">
+               <div class="col-md-9 col-xs-12 col-sm-9 breadcrumb-position">
 						<?php if (function_exists('the_breadcrumb')) the_breadcrumb();?>
                 </div>
 
-                <div class="col-md-6 col-xs-12 col-sm-6">
+                <div class="col-md-3 col-xs-12 col-sm-3">
 					<?php 
 						if($hide_show_call_actions == 'on' && $call_action_button_label) : ?>
 	                <div class="col-md-3 pull-right padding-top-10 padding-bottom-5">
