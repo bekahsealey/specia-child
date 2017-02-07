@@ -16,7 +16,7 @@ class specia_child_Updater{
 		$this->config = array(
 			'server'  => 'http://nmomedia.com/',
 			'type'    => 'theme',
-			'id'      => 'files/specia-child',
+			'id'      => 'specia-child',
 			'api'     => '1.0.0',
 			'post'    => array(),
 		);
