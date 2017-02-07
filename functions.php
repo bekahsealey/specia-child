@@ -37,6 +37,6 @@ require_once get_stylesheet_directory() . '/inc/page-options.php';
 require_once get_stylesheet_directory() . '/inc/extend-customizer.php';
 require_once get_stylesheet_directory() . '/inc/my-functions.php';
 /* Include theme updater. */
-require_once get_stylesheet_directory() . 'inc/updater.php';
+require_once get_stylesheet_directory() . '/inc/updater.php';
 
 ?>
