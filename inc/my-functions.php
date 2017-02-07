@@ -1,4 +1,34 @@
 <?php
+function specia_child_pre_set_transient_update_theme ( $transient ) {
+	if( empty( $transient->checked['specia-child'] ) )
+    return $transient;
+
+	$ch = curl_init();
+ 
+	curl_setopt($ch, CURLOPT_URL, 'https://github.com/bekahsealey/specia-child/blob/master/js/version.json' );
+	 
+	 // 3 second timeout to avoid issue on the server
+	curl_setopt($ch, CURLOPT_TIMEOUT, 3 ); 
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+	$result = curl_exec($ch);
+	curl_close($ch);
+
+	 // make sure that we received the data in the response is not empty
+	if( empty( $result ) )
+		return $transient;
+
+	 //check server version against current installed version
+	if( $data = json_decode( $result ) ){
+		if( version_compare( $transient->checked['specia-child'], $data->new_version, '<' ) )
+	 	$transient->response['specia-child'] = (array) $data;
+	}
+	 
+	 return $transient;
+
+} 
+add_filter ( 'pre_set_site_transient_update_themes', 'specia_child_pre_set_transient_update_theme' );
+
 function my_social_icons() {
 	$hide_show_social_icons= get_theme_mod('hide_show_social_icons','off'); 
 	$social_icons_group_id= get_theme_mod('social_icons_group_id','');
