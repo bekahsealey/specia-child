@@ -251,17 +251,17 @@ The theme has been set up to default to full-width page layouts for "Pages." If 
 #### Highlight a Post instead of a Page on the Portfolio Front Page Section
 
 The default set up only allows selection of a Page to display on the Front Page instead of a Post. If you would like to feature a Post (this will only show one post in the Portfolio Section), follow these steps:
-	* Create a new Page and give it a category. 
-		* You can name your Page anything -- the title will not display on the tile, but it will be how you select the page in the Customizer. 
-		* Click "Add New Category" at the bottom of the Categories box and create a category. You may want to use a descriptive category like "Front Page Tile", "Tile{number}", or "Featured Tile." Important! Give this page only **one** category
-		* Select the "Highlight Category Post" from the Template dropdown in the "Page Attributes" box
-		* Click Publish on the Page. 
-	* Select the Post and add it to the Category
-		* Find the Post you would like to feature and open it in the editor
-		* Scroll through the Categories until you find and select the Category you assigned to the Page (you can leave other categories that are selected...posts can have multiple categories)
-		* Be sure the Post has a Featured Image selected in the Featured Image box on the bottom right column
-		* Click Update on the Post
-	* Refer back to the instructions on setting up the Portfolio Section above to select the Highlight Category Page you created in the Customizer
+* Create a new Page and give it a category. 
+	* You can name your Page anything -- the title will not display on the tile, but it will be how you select the page in the Customizer. 
+	* Click "Add New Category" at the bottom of the Categories box and create a category. You may want to use a descriptive category like "Front Page Tile", "Tile{number}", or "Featured Tile." Important! Give this page only **one** category
+	* Select the "Highlight Category Post" from the Template dropdown in the "Page Attributes" box
+	* Click Publish on the Page. 
+* Select the Post and add it to the Category
+	* Find the Post you would like to feature and open it in the editor
+	* Scroll through the Categories until you find and select the Category you assigned to the Page (you can leave other categories that are selected...posts can have multiple categories)
+	* Be sure the Post has a Featured Image selected in the Featured Image box on the bottom right column
+	* Click Update on the Post
+* Refer back to the instructions on setting up the Portfolio Section above to select the Highlight Category Page you created in the Customizer
 
 #### List all Pages that are Children of a Page
 
@@ -270,15 +270,15 @@ This template will display the Featured Image thumbnail and an excerpt of each p
 #### Parent Category Template
 
 This template creates a custom page layout that will feature the newest post of each Category Child of the Parent Category, and then list all posts that fall within the Category below. It will also display the Horizontal Sidebar at the top of the Page if there are widgets set up in it. If Jetpack plugin is installed, use the [Jetpack Visibility](https://jetpack.com/support/widget-visibility/) settings to further customize which widgets will be visible on which pages. 
-	* In the Parent Page, select or create the Category whose children you would like to feature (select a single category only). 
-	* Select "Parent Category" in the page editor from the Page Attributes->Template dropdown. 
-	* Publish or Update the page
-	* Click Posts on the Dashboard left sidebar
-	* Click Categories on the Dashboard left sidebar
-	* Select or create each Category you would like to make a child of the Category attached to the Parent Category Page, and set the Parent in the Parent dropdown box
-	* Update the Category
-	* Note: the template is set to not duplicate the latest post in a child category, so if you only have one post in each category, you will see a "No posts found" message
-	* If you have the WordPress Responsive Thumbnail Slider installed to create a Recommended Reading list, create a Page with the "Education Station" Category and it will automatically display under the Latest Posts
+* In the Parent Page, select or create the Category whose children you would like to feature (select a single category only). 
+* Select "Parent Category" in the page editor from the Page Attributes->Template dropdown. 
+* Publish or Update the page
+* Click Posts on the Dashboard left sidebar
+* Click Categories on the Dashboard left sidebar
+* Select or create each Category you would like to make a child of the Category attached to the Parent Category Page, and set the Parent in the Parent dropdown box
+* Update the Category
+* Note: the template is set to not duplicate the latest post in a child category, so if you only have one post in each category, you will see a "No posts found" message
+* If you have the WordPress Responsive Thumbnail Slider installed to create a Recommended Reading list, create a Page with the "Education Station" Category and it will automatically display under the Latest Posts
 
 #### State Parties Page
 
@@ -291,13 +291,13 @@ The default page template will use a large version of the Page's Featured Image 
 ### Recommended Plugins
 
 See each plugin's own documentation for configuration
-	* Jetpack (requires creating free Wordpress.com account) by WordPress.com by Automattic
-	* Wordfence Security by Wordfence
-	* WordPress Responsive Thumbnail Slider by Thirteen Web Solution (used as Recommended Reading on Education Station)
-	* If you are reorganizing an existing site (WordPress or not): Eggplant 301 Redirects by Shawn Wernig
-	* Flickr - Pick a Picture by Pablo Adrian Castillo (for adding Creative Commons images to Posts and Pages)
-	* Google Analytics by ShareThis
-	* Social Icons by ThemeGrill (setup documented above)
+* Jetpack (requires creating free Wordpress.com account) by WordPress.com by Automattic
+* Wordfence Security by Wordfence
+* WordPress Responsive Thumbnail Slider by Thirteen Web Solution (used as Recommended Reading on Education Station)
+* If you are reorganizing an existing site (WordPress or not): Eggplant 301 Redirects by Shawn Wernig
+* Flickr - Pick a Picture by Pablo Adrian Castillo (for adding Creative Commons images to Posts and Pages)
+* Google Analytics by ShareThis
+* Social Icons by ThemeGrill (setup documented above)
 
 
 ### Custom Post Types
