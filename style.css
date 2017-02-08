@@ -371,8 +371,10 @@
     color: #182947; }
   .constitution .page-wrapper {
     background-color: #F9F9F9; }
-  .constitution .page-wrapper article {
-    border: solid 1px #AEADAD; }
+    .constitution .page-wrapper article {
+      border: solid 1px #AEADAD;
+      padding-bottom: 0;
+      overflow: hidden; }
   .constitution .navbar {
     background: #F9F9F9;
     border-color: #e9e9e9; }
@@ -397,8 +399,8 @@
   .constitution .header-top-info-1 {
     background: #464646;
     border-bottom: 1px solid #fff; }
-  .constitution .header-top-info-1 .info li i, .constitution .header-top-info-1 .info li a {
-    color: #D5D5D5; }
+    .constitution .header-top-info-1 .info li i, .constitution .header-top-info-1 .info li a {
+      color: #D5D5D5; }
   .constitution header[role="banner"] {
     border-bottom: 3px solid #860918; }
   .constitution .site-content .call-to-action .background-overlay {
@@ -406,6 +408,14 @@
   .constitution .site-content .call-to-action .background-overlay .call-btn-1,
   .constitution .breadcrumb .call-btn-1 {
     background-color: #9e0b1c; }
+  .constitution .breadcrumb {
+    background-color: #425472;
+    border-radius: 0px; }
+  .constitution .page-breadcrumb li {
+    display: inline-block;
+    color: #F9F9F9; }
+  .constitution .breadcrumb-position {
+    text-align: left; }
   .constitution .service-version-one {
     background: #DEDEDE; }
   .constitution .slider-version-one .caption {
@@ -473,19 +483,13 @@
     color: #860918 !important; }
   .constitution .portfolio-version {
     background: #F9F9F9; }
-  .constitution .portfolio-version h2.section-heading,
-  .constitution .portfolio-version h3 {
-    color: #860918; }
+    .constitution .portfolio-version h2.section-heading,
+    .constitution .portfolio-version h3 {
+      color: #860918; }
   .constitution figure.effect-sadie:hover figcaption::before, .constitution figure.effect-sadie:hover p {
     padding-top: 20px; }
   .constitution .footer-copyright, .constitution .footer-copyright p, .constitution .footer-copyright p a {
     background: #091830; }
-  .constitution .breadcrumb {
-    background-color: #425472;
-    border-radius: 0px; }
-  .constitution .page-breadcrumb li {
-    display: inline-block;
-    color: #F9F9F9; }
   .constitution header .title-border {
     border-bottom: 2px solid #9e0b1c;
     width: 30px;
@@ -495,11 +499,6 @@
     border-bottom: 1px solid #AEADAD;
     margin: 0 0 30px;
     padding: 0 0 18px; }
-  .constitution .breadcrumb-position {
-    text-align: left; }
-  .constitution .page-wrapper article {
-    padding-bottom: 0;
-    overflow: hidden; }
   .constitution .search-form {
     margin-bottom: 10px; }
   .constitution .alignleft.wp-post-image {
