@@ -289,7 +289,8 @@ Not intended for individual State use. Requires "Advanced Custom Fields" Plugin
 The default page template will use a large version of the Page's Featured Image centered above the Page content. If you would prefer to use a smaller image aligned to the left of the content, in the Page editor, select "Thumbnail Left Aligned" from the Page Attributes->Template dropdown box.
 
 ### Recommended Plugins
-	See each plugin's own documentation for configuration
+
+See each plugin's own documentation for configuration
 	* Jetpack (requires creating free Wordpress.com account) by WordPress.com by Automattic
 	* Wordfence Security by Wordfence
 	* WordPress Responsive Thumbnail Slider by Thirteen Web Solution (used as Recommended Reading on Education Station)
