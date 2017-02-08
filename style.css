@@ -118,12 +118,7 @@
   =========================================
       Media Queries
   =========================================
-  -----------------------------------------*/
-  /*
-  Description: Responsive code for Specia Child Theme by Bekah Sealey
-  Author: Caleb Grove
-  Author URI: https://grovedesign.co
-  */ }
+  -----------------------------------------*/ }
   .constitution .nav-justified > .dropdown .dropdown-menu .dropdown-menu {
     top: 0;
     left: auto; }
@@ -651,54 +646,6 @@
     padding: 20px; }
   .constitution .candidate-race, .constitution .candidate-loc {
     margin-bottom: 10px; }
-  @media (max-width: 768px) {
-    .constitution .custom-logo {
-      width: 150px;
-      margin: auto; }
-    .constitution .custom-logo-link {
-      float: none;
-      margin-right: 0px;
-      margin: auto;
-      width: 100%;
-      display: block; }
-    .constitution .title {
-      float: none;
-      width: 98%;
-      margin: auto; }
-      .constitution .title .playfairSC {
-        font-size: 32px;
-        text-align: center;
-        line-height: 1.5; }
-      .constitution .title .site-description {
-        font-size: 26px;
-        line-height: 1.4;
-        margin-top: 20px; }
-    .constitution .slider-version-one .caption {
-      margin: auto;
-      width: 90%;
-      font-weight: bold; }
-      .constitution .slider-version-one .caption h1 {
-        font-weight: 700;
-        font-size: 18px; }
-      .constitution .slider-version-one .caption h1 + p,
-      .constitution .slider-version-one .caption p.tagline {
-        margin: 0 0 5px; }
-    .constitution .no-mobile {
-      display: none; }
-    .constitution header.entry-header {
-      padding: 14px 0; }
-    .constitution .alignleft.wp-post-image {
-      margin: 10px 0px 10px 10px; }
-    .constitution .entry-content {
-      padding: 0 10px 30px;
-      overflow: hidden; }
-    .constitution .col-xs-1, .constitution .col-sm-1, .constitution .col-md-1, .constitution .col-lg-1, .constitution .col-xs-2, .constitution .col-sm-2, .constitution .col-md-2, .constitution .col-lg-2, .constitution .col-xs-3, .constitution .col-sm-3, .constitution .col-md-3, .constitution .col-lg-3, .constitution .col-xs-4, .constitution .col-sm-4, .constitution .col-md-4, .constitution .col-lg-4, .constitution .col-xs-5, .constitution .col-sm-5, .constitution .col-md-5, .constitution .col-lg-5, .constitution .col-xs-6, .constitution .col-sm-6, .constitution .col-md-6, .constitution .col-lg-6, .constitution .col-xs-7, .constitution .col-sm-7, .constitution .col-md-7, .constitution .col-lg-7, .constitution .col-xs-8, .constitution .col-sm-8, .constitution .col-md-8, .constitution .col-lg-8, .constitution .col-xs-9, .constitution .col-sm-9, .constitution .col-md-9, .constitution .col-lg-9, .constitution .col-xs-10, .constitution .col-sm-10, .constitution .col-md-10, .constitution .col-lg-10, .constitution .col-xs-11, .constitution .col-sm-11, .constitution .col-md-11, .constitution .col-lg-11, .constitution .col-xs-12, .constitution .col-sm-12, .constitution .col-md-12, .constitution .col-lg-12 {
-      padding-right: 10px;
-      padding-left: 10px; }
-    .constitution h2.entry-title, .constitution h2.entry-title a {
-      font-size: 1.8rem; }
-    .constitution .child-category {
-      margin-bottom: 60px; } }
   @media (min-width: 768px) {
     .constitution .service-title a {
       font-size: 2.2rem; }
@@ -737,71 +684,6 @@
         font-size: 76px; }
       .constitution .title .site-description {
         font-size: 26px; } }
-  .constitution .constitution .navbar-toggle {
-    clear: right; }
-  .constitution .constitution .call-to-action .background-overlay .col-md-9 {
-    float: left; }
-  @media (max-width: 992px) {
-    .constitution .constitution .container {
-      width: auto; }
-    .constitution .constitution .footer-sidebar .row > div:nth-child(odd) {
-      clear: both; } }
-  @media (max-width: 768px) {
-    .constitution .constitution .custom-logo-link {
-      width: 20%;
-      margin: 0;
-      float: left; }
-    .constitution .constitution .title {
-      width: 80%;
-      float: right; }
-      .constitution .constitution .title .playfairSC {
-        line-height: 1;
-        margin-top: 0; }
-      .constitution .constitution .title .site-description {
-        font-size: 20px; }
-    .constitution .constitution .call-to-action .background-overlay .row {
-      padding: 1.5em 0; }
-    .constitution .constitution .call-to-action .background-overlay .col-md-9 {
-      float: left; }
-    .constitution .constitution .grid figure h2 {
-      font-size: 2.2rem; }
-    .constitution .constitution .portfolio-version-one > .row {
-      padding-bottom: 0; } }
-  @media (max-width: 520px) {
-    .constitution .constitution .custom-logo-link {
-      width: 35%;
-      margin: 0 auto;
-      float: none; }
-    .constitution .constitution .title {
-      width: 100%; }
-      .constitution .constitution .title .playfairSC {
-        margin-top: 1rem; }
-      .constitution .constitution .title .site-description {
-        font-size: 16px; }
-    .constitution .constitution .specia-slider .tagline {
-      margin: 0; }
-    .constitution .constitution .call-to-action {
-      text-align: center; }
-    .constitution .constitution .site-content .specia-btn-1, .constitution .constitution .site-content .call-to-action .background-overlay a.call-btn-1 {
-      float: none;
-      display: inline-block; } }
-  @media (hover: none) {
-    .constitution .constitution .portfolio-version-one figure.effect-sadie {
-      transform: none; }
-      .constitution .constitution .portfolio-version-one figure.effect-sadie figcaption {
-        position: flex; }
-        .constitution .constitution .portfolio-version-one figure.effect-sadie figcaption:before {
-          z-index: -1;
-          transform: none; }
-      .constitution .constitution .portfolio-version-one figure.effect-sadie h2 {
-        position: static;
-        transform: none;
-        margin-top: .5em; }
-      .constitution .constitution .portfolio-version-one figure.effect-sadie p {
-        transform: none;
-        margin-top: 1em;
-        opacity: 1;
-        position: static; } }
 
 /* end constitution class */
 /* --------------------------------------
@@ -814,5 +696,124 @@
 
 :not(.home) footer.entry {
   margin-top: 43px; }
+
+/*
+Description: Responsive code for Specia Child Theme by Bekah Sealey
+Author: Caleb Grove
+Author URI: https://grovedesign.co
+*/
+.constitution .navbar-toggle {
+  clear: right; }
+.constitution .call-to-action .background-overlay .col-md-9 {
+  float: left; }
+
+@media (max-width: 992px) {
+  .constitution .container {
+    width: auto; }
+  .constitution .footer-sidebar .row > div:nth-child(odd) {
+    clear: both; } }
+@media (max-width: 768px) {
+  .constitution .custom-logo {
+    width: 150px;
+    margin: auto; }
+  .constitution .custom-logo-link {
+    float: none;
+    margin-right: 0px;
+    margin: auto;
+    width: 100%;
+    display: block; }
+  .constitution .title {
+    float: none;
+    width: 98%;
+    margin: auto; }
+    .constitution .title .playfairSC {
+      font-size: 32px;
+      text-align: center;
+      line-height: 1.5; }
+    .constitution .title .site-description {
+      font-size: 26px;
+      line-height: 1.4;
+      margin-top: 20px; }
+  .constitution .slider-version-one .caption {
+    margin: auto;
+    width: 90%;
+    font-weight: bold; }
+    .constitution .slider-version-one .caption h1 {
+      font-weight: 700;
+      font-size: 18px; }
+    .constitution .slider-version-one .caption h1 + p,
+    .constitution .slider-version-one .caption p.tagline {
+      margin: 0 0 5px; }
+  .constitution .no-mobile {
+    display: none; }
+  .constitution header.entry-header {
+    padding: 14px 0; }
+  .constitution .alignleft.wp-post-image {
+    margin: 10px 0px 10px 10px; }
+  .constitution .entry-content {
+    padding: 0 10px 30px;
+    overflow: hidden; }
+  .constitution .col-xs-1, .constitution .col-sm-1, .constitution .col-md-1, .constitution .col-lg-1, .constitution .col-xs-2, .constitution .col-sm-2, .constitution .col-md-2, .constitution .col-lg-2, .constitution .col-xs-3, .constitution .col-sm-3, .constitution .col-md-3, .constitution .col-lg-3, .constitution .col-xs-4, .constitution .col-sm-4, .constitution .col-md-4, .constitution .col-lg-4, .constitution .col-xs-5, .constitution .col-sm-5, .constitution .col-md-5, .constitution .col-lg-5, .constitution .col-xs-6, .constitution .col-sm-6, .constitution .col-md-6, .constitution .col-lg-6, .constitution .col-xs-7, .constitution .col-sm-7, .constitution .col-md-7, .constitution .col-lg-7, .constitution .col-xs-8, .constitution .col-sm-8, .constitution .col-md-8, .constitution .col-lg-8, .constitution .col-xs-9, .constitution .col-sm-9, .constitution .col-md-9, .constitution .col-lg-9, .constitution .col-xs-10, .constitution .col-sm-10, .constitution .col-md-10, .constitution .col-lg-10, .constitution .col-xs-11, .constitution .col-sm-11, .constitution .col-md-11, .constitution .col-lg-11, .constitution .col-xs-12, .constitution .col-sm-12, .constitution .col-md-12, .constitution .col-lg-12 {
+    padding-right: 10px;
+    padding-left: 10px; }
+  .constitution h2.entry-title, .constitution h2.entry-title a {
+    font-size: 1.8rem; }
+  .constitution .child-category {
+    margin-bottom: 60px; }
+  .constitution .custom-logo-link {
+    width: 20%;
+    margin: 0;
+    float: left; }
+  .constitution .title {
+    width: 80%;
+    float: right; }
+    .constitution .title .playfairSC {
+      line-height: 1;
+      margin-top: 0; }
+    .constitution .title .site-description {
+      font-size: 20px; }
+  .constitution .call-to-action .background-overlay .row {
+    padding: 1.5em 0; }
+  .constitution .call-to-action .background-overlay .col-md-9 {
+    float: left; }
+  .constitution .grid figure h2 {
+    font-size: 2.2rem; }
+  .constitution .portfolio-version-one > .row {
+    padding-bottom: 0; } }
+@media (max-width: 520px) {
+  .constitution .custom-logo-link {
+    width: 35%;
+    margin: 0 auto;
+    float: none; }
+  .constitution .title {
+    width: 100%; }
+    .constitution .title .playfairSC {
+      margin-top: 1rem; }
+    .constitution .title .site-description {
+      font-size: 16px; }
+  .constitution .specia-slider .tagline {
+    margin: 0; }
+  .constitution .call-to-action {
+    text-align: center; }
+  .constitution .site-content .specia-btn-1, .constitution .site-content .call-to-action .background-overlay a.call-btn-1 {
+    float: none;
+    display: inline-block; } }
+@media (hover: none) {
+  .constitution .portfolio-version-one figure.effect-sadie {
+    transform: none; }
+    .constitution .portfolio-version-one figure.effect-sadie figcaption {
+      position: flex; }
+      .constitution .portfolio-version-one figure.effect-sadie figcaption:before {
+        z-index: -1;
+        transform: none; }
+    .constitution .portfolio-version-one figure.effect-sadie h2 {
+      position: static;
+      transform: none;
+      margin-top: .5em; }
+    .constitution .portfolio-version-one figure.effect-sadie p {
+      transform: none;
+      margin-top: 1em;
+      opacity: 1;
+      position: static; } }
 
 /*# sourceMappingURL=style.css.map */
