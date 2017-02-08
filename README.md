@@ -290,14 +290,13 @@ The default page template will use a large version of the Page's Featured Image 
 
 ### Recommended Plugins
 	See each plugin's own documentation for configuration
-
-* Jetpack (requires creating free Wordpress.com account) by WordPress.com by Automattic
-* Wordfence Security by Wordfence
-* WordPress Responsive Thumbnail Slider by Thirteen Web Solution (used as Recommended Reading on Education Station)
-* If you are reorganizing an existing site (WordPress or not): Eggplant 301 Redirects by Shawn Wernig
-* Flickr - Pick a Picture by Pablo Adrian Castillo (for adding Creative Commons images to Posts and Pages)
-* Google Analytics by ShareThis
-* Social Icons by ThemeGrill (setup documented above)
+	* Jetpack (requires creating free Wordpress.com account) by WordPress.com by Automattic
+	* Wordfence Security by Wordfence
+	* WordPress Responsive Thumbnail Slider by Thirteen Web Solution (used as Recommended Reading on Education Station)
+	* If you are reorganizing an existing site (WordPress or not): Eggplant 301 Redirects by Shawn Wernig
+	* Flickr - Pick a Picture by Pablo Adrian Castillo (for adding Creative Commons images to Posts and Pages)
+	* Google Analytics by ShareThis
+	* Social Icons by ThemeGrill (setup documented above)
 
 
 ### Custom Post Types
