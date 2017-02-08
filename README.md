@@ -11,7 +11,6 @@ _What you need:_
 * Log in to the Administration panel by navigating to **your-website-address**/wp-admin in your browser
 * Click "Appearance" -> "Themes" on the left sidebar
 * Click "Upload Themes" button, to the right of the title "Add Themes"
-* Click "Upload Themes" button, to the right of the title "Add Themes"
 * Click "Browse", then navigate to your desktop or downloads folder
 * Select the specia.zip file and click "Open"
 * Click "Install Now"
