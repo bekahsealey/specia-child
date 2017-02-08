@@ -1,6 +1,6 @@
 <?php
 /* Load Class. */
-$fxupdater_updater = new specia_child_Updater();
+$specia_child_updater = new specia_child_Updater();
 
 /**
  * Updater Class
