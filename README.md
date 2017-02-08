@@ -10,10 +10,13 @@ _What you need:_
 ### Install Specia Theme
 * Log in to the Administration panel by navigating to **your-website-address**/wp-admin in your browser
 * Click "Appearance" -> "Themes" on the left sidebar
-* Click "Add New" button, to the right of the title "Themes"
-* Enter *Specia* in the "Search themes..." box
-* Hover or select the Specia theme and click Install
-* After installation completes, select "Return to theme installer"
+* Click "Upload Themes" button, to the right of the title "Add Themes"
+* Click "Upload Themes" button, to the right of the title "Add Themes"
+* Click "Browse", then navigate to your desktop or downloads folder
+* Select the specia.zip file and click "Open"
+* Click "Install Now"
+* After installation completes, select "Return to Themes Page"
+
 
 ### Install Specia Child Theme
 * If you are not on the "Add Themes" page, repeat the first three steps of the Install Special Theme guide above.
@@ -288,13 +291,13 @@ The default page template will use a large version of the Page's Featured Image 
 ### Recommended Plugins
 	See each plugin's own documentation for configuration
 
-	* Jetpack (requires creating free Wordpress.com account) by WordPress.com by Automattic
-	* Wordfence Security by Wordfence
-	* WordPress Responsive Thumbnail Slider by Thirteen Web Solution (used as Recommended Reading on Education Station)
-	* If you are reorganizing an existing site (WordPress or not): Eggplant 301 Redirects by Shawn Wernig
-	* Flickr - Pick a Picture by Pablo Adrian Castillo (for adding Creative Commons images to Posts and Pages)
-	* Google Analytics by ShareThis
-	* Social Icons by ThemeGrill (setup documented above)
+* Jetpack (requires creating free Wordpress.com account) by WordPress.com by Automattic
+* Wordfence Security by Wordfence
+* WordPress Responsive Thumbnail Slider by Thirteen Web Solution (used as Recommended Reading on Education Station)
+* If you are reorganizing an existing site (WordPress or not): Eggplant 301 Redirects by Shawn Wernig
+* Flickr - Pick a Picture by Pablo Adrian Castillo (for adding Creative Commons images to Posts and Pages)
+* Google Analytics by ShareThis
+* Social Icons by ThemeGrill (setup documented above)
 
 
 ### Custom Post Types
