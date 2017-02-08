@@ -44,7 +44,7 @@ _What you need:_
 		* Under "Page Attributes" on the right side column click the drop down arrow under "Template." Select "Homepage One." 
 		* Content can be added later
 		* Click the "Publish" button in the top right column box
-		* refer to [original theme documentation](http://docs.speciatheme.com/lite/#document-2) for further help and screenshots
+		* refer to [original theme documentation 2](http://docs.speciatheme.com/lite/#document-2) for further help and screenshots
 	* up to three pages created for Home Page slider
 		* Select "Pages" on the Dashboard left column, then click "Add New"
 		* Enter a title
@@ -115,7 +115,7 @@ This theme has a default section for Social Media Icons, which include Facebook,
 			* In the right sidebar under the logo image, enter an alt text description of your image
 			* Click "Select" at the bottom right corner of the screen
 			* If you have already prepared your file to 150px by 150px, click "Skip Cropping" in the lower right corner of the screen. If not, go back and create a 150px by 150px version of the logo and start again at step 1.1. Click "Select logo"
-			* refer to [original theme documentation](http://docs.speciatheme.com/lite/#document-5) for further help and screenshots
+			* refer to [original theme documentation 5](http://docs.speciatheme.com/lite/#document-5) for further help and screenshots
 		2. In "Site Title," enter your state party name
 		3. In "Tagline," enter your state party motto
 		4. Under "Site Icon," click "Select Image"
@@ -141,14 +141,14 @@ This theme has a default section for Social Media Icons, which include Facebook,
 				* If you did not already install it, go back to the "Optional Social Icons ThemeGrill Plugin" step and follow
 			* Click the radio button labeled "Show"
 			* Enter your social media links under the corresponding labels
-			* refer to [original theme documentation](http://docs.speciatheme.com/lite/#document-3) for further help and screenshots
+			* refer to [original theme documentation 3](http://docs.speciatheme.com/lite/#document-3) for further help and screenshots
 			* Click "Save & Publish" at the top right corner of the Customize side panel(Do not be alarmed if nothing seems to change)
 			* Click the back arrow next to "Customizing > Header Section Social Media" directly below the "Save & Publish" button
 		2. Click "Header Contact Info"
 			* Click the radio button labeled "Show"  (If your social media icons did not show up before, they should be visible now)
 			* Under "Email" enter the state party contact email address
 			* If desired, under "Contact Number", enter the state party contact phone number
-			* refer to [original theme documentation](http://docs.speciatheme.com/lite/#document-4) for further help and screenshots
+			* refer to [original theme documentation 4](http://docs.speciatheme.com/lite/#document-4) for further help and screenshots
 			* Click "Save & Publish" at the top right corner of the Customize side panel
 			* Click the back arrow next to "Customizing > Header Section Header Contact Info" directly below the "Save & Publish" button
 		3. Click "Sticky Header"
@@ -174,7 +174,7 @@ This theme has a default section for Social Media Icons, which include Facebook,
 			* For each slider image, click the drop down button under "Select Page..." and select the page desired. (When content is entered on the corresponding page, it will be pulled up in the image overlay.)
 			* Click "Select Color" under "Slider Background Color"
 				* Click the White square on the line of squares
-			* refer to [original theme documentation](http://docs.speciatheme.com/lite/#document-6) for further help and screenshots
+			* refer to [original theme documentation 6](http://docs.speciatheme.com/lite/#document-6) for further help and screenshots
 			* Click "Save & Publish" at the top right corner of the Customize side panel
 			* Click the back arrow next to "Customizing > Home Section Slider Section" directly below the "Save & Publish" button
 		2. Click "Call Action Section"
@@ -182,7 +182,7 @@ This theme has a default section for Social Media Icons, which include Facebook,
 			* Click the drop down arrow under "Select Page for Call Action," and select the page you created for the Call to Action section
 			* Enter the text you would like displayed on the button under "Button Label"
 			* Enter the link to the page that the Call to Action button should link to. (this may be a Nation Builder page for donation, etc.)
-			* refer to [original theme documentation](http://docs.speciatheme.com/lite/#document-7) for further help and screenshots
+			* refer to [original theme documentation 7](http://docs.speciatheme.com/lite/#document-7) for further help and screenshots
 			* Click "Save & Publish" at the top right corner of the Customize side panel
 			* Click the back arrow next to "Customizing > Home Section Call Action Section" directly below the "Save & Publish" button
 		3. Click "Service Section"
@@ -191,12 +191,12 @@ This theme has a default section for Social Media Icons, which include Facebook,
 			* If desired, write a title for the pages in this section under "Service Title"
 			* If desired, write a description for the pages in this section in the text box under "Service Description"
 			* For each tile in this section, click the drop down button under "Select Page..." and select the page desired. (When content is entered on the corresponding page, and excerpt will display under the featured image.)
-			* refer to [original theme documentation](http://docs.speciatheme.com/lite/#document-8) for further help and screenshots
+			* refer to [original theme documentation 8](http://docs.speciatheme.com/lite/#document-8) for further help and screenshots
 			* Click "Save & Publish" at the top right corner of the Customize side panel
 			* Click the back arrow next to "Customizing > Home Section Service Section" directly below the "Save & Publish" button
 		4. Click "Features Section"
 			* *Features is a 'widget area' displayable on the Home page. It's purpose is relatively open-ended, able to hold any active widget. Widgets are added from the Dashboard under Appearance -> Widgets -> Features Widget Area. To learn more about widgets, visit the
-			* [WordPress documentation page](https://codex.wordpress.org/WordPress_Widgets)
+			* [WordPress widget documentation page](https://codex.wordpress.org/WordPress_Widgets)
 			* If you do not want to use a Features section, click the radio button labeled "Hide," then skip to "Save & Publish" step
 			* If desired, write a title for the pages in this section under "Features Title"
 			* If desired, write a description for the pages in this section in the text box under "Features Description"
@@ -209,7 +209,7 @@ This theme has a default section for Social Media Icons, which include Facebook,
 			* If desired, write a title for the pages in this section under "Portfolio Title"
 			* If desired, write a description for the pages in this section in the text box under "Portfolio Description"
 			* For each tile in this section, click the drop down button under "Select Page..." and select the page desired. (Only the page title will display as an overlay on these tiles' images)
-			* refer to [original theme documentation](http://docs.speciatheme.com/lite/#document-10) for further help and screenshots
+			* refer to [original theme documentation 10](http://docs.speciatheme.com/lite/#document-10) for further help and screenshots
 			* Portfolio Section has been extended to allow a total of 6 tiles instead of the default three. To set up more than three, click the radio button to "Show" for the extended section and repeat the steps to set page selections.
 			* Click "Save & Publish" at the top right corner of the Customize side panel
 			* Click the back arrow next to "Customizing > Home Section Portfolio Section" directly below the "Save & Publish" button
@@ -218,7 +218,7 @@ This theme has a default section for Social Media Icons, which include Facebook,
 			* If desired, write a title for the pages in this section under "Blog Title"
 			* If desired, write a description for the pages in this section in the text box under "Blog Description"
 			* You may choose to display 3, 6 or 9 tiles under the Blog section by clicking the drop down arrow under "Posts Display"
-			* refer to [original theme documentation](http://docs.speciatheme.com/lite/#document-11) for further help and screenshots
+			* refer to [original theme documentation 11](http://docs.speciatheme.com/lite/#document-11) for further help and screenshots
 			* Click "Save & Publish" at the top right corner of the Customize side panel
 			* Click the back arrow next to "Customizing > Home Section Blog Section" directly below the "Save & Publish" button
 		7. Click the back arrow next to "You are customizing Home Section" directly below the "Save & Publish" button
@@ -238,7 +238,7 @@ This theme has a default section for Social Media Icons, which include Facebook,
 
 ### Using WordPress
 
-Visit the [WordPress website](https://codex.wordpress.org/Main_Page) for more on how to create content and maintain your website.
+Visit the [WordPress website documentation](https://codex.wordpress.org/Main_Page) for more on how to create content and maintain your website.
 
 ### Special page layouts
 
