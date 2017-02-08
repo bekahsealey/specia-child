@@ -251,6 +251,7 @@ The theme has been set up to default to full-width page layouts for "Pages." If 
 #### Highlight a Post instead of a Page on the Portfolio Front Page Section
 
 The default set up only allows selection of a Page to display on the Front Page instead of a Post. If you would like to feature a Post (this will only show one post in the Portfolio Section), follow these steps:
+
 * Create a new Page and give it a category. 
 	* You can name your Page anything -- the title will not display on the tile, but it will be how you select the page in the Customizer. 
 	* Click "Add New Category" at the bottom of the Categories box and create a category. You may want to use a descriptive category like "Front Page Tile", "Tile{number}", or "Featured Tile." Important! Give this page only **one** category
@@ -270,6 +271,7 @@ This template will display the Featured Image thumbnail and an excerpt of each p
 #### Parent Category Template
 
 This template creates a custom page layout that will feature the newest post of each Category Child of the Parent Category, and then list all posts that fall within the Category below. It will also display the Horizontal Sidebar at the top of the Page if there are widgets set up in it. If Jetpack plugin is installed, use the [Jetpack Visibility](https://jetpack.com/support/widget-visibility/) settings to further customize which widgets will be visible on which pages. 
+
 * In the Parent Page, select or create the Category whose children you would like to feature (select a single category only). 
 * Select "Parent Category" in the page editor from the Page Attributes->Template dropdown. 
 * Publish or Update the page
@@ -291,6 +293,7 @@ The default page template will use a large version of the Page's Featured Image 
 ### Recommended Plugins
 
 See each plugin's own documentation for configuration
+
 * Jetpack (requires creating free Wordpress.com account) by WordPress.com by Automattic
 * Wordfence Security by Wordfence
 * WordPress Responsive Thumbnail Slider by Thirteen Web Solution (used as Recommended Reading on Education Station)
