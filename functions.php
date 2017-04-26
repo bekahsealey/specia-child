@@ -1,4 +1,9 @@
 <?php
+function specia_child_dequeue_script() {
+   wp_dequeue_script( 'specia-custom-js' );
+}
+add_action( 'wp_print_scripts', 'specia_child_dequeue_script', 100 );
+
 add_action( 'wp_enqueue_scripts', 'specia_child_enqueue_styles' );
 function specia_child_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
@@ -7,6 +12,7 @@ function specia_child_enqueue_styles() {
     wp_enqueue_style( 'dashicons' );
 	wp_enqueue_script( 'js-scalem', get_stylesheet_directory_uri() . '/js/jquery.scalem.js', array( 'jquery' ), '1.2.0', true );
 	wp_enqueue_script( 'my-scalem', get_stylesheet_directory_uri() . '/js/myscalem.js', array( 'js-scalem' ), '1.0.0', true );
+    wp_enqueue_script('specia-child-custom-js', get_stylesheet_directory_uri() . '/js/custom.js');
 	if( is_page_template( 'templates/template-state-parties.php' ) ) {
 		wp_enqueue_script( 'initMap', get_stylesheet_directory_uri() . '/js/initMap.js', array( 'jquery' ), '1.0.0', true );
 		wp_enqueue_script( 'raphael-js', get_stylesheet_directory_uri() . '/js/raphael.js', array( 'jquery' ), '1.0.0', true );
