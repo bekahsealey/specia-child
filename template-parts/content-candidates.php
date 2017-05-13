@@ -12,6 +12,7 @@
 	$hide_show_blog_meta = get_theme_mod('hide_show_blog_meta','on'); 
 ?>
 <?php 
+            $year = ''; $race=''; $locale=''; $website='';
             $year = get_metadata('post', $post->ID, 'year' );
             $year = esc_html( $year[0] );
             $race = get_metadata('post', $post->ID, 'race' );
